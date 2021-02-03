@@ -5,6 +5,7 @@ import Contact from './Pages/Contact';
 import Projects from './Pages/Projects';
 import Resume from './Pages/Resume';
 import { Switch, Route } from 'react-router-dom';
+import MenuExampleInvertedSecondary from './Components/NavBar'
 
 const App = () => {
 
@@ -15,7 +16,7 @@ const App = () => {
   return (
     <div>
       <div>
-        
+        <MenuExampleInvertedSecondary />
       </div>
       <Switch>
         <Route exact path="/" component={Home} />

@@ -9,7 +9,7 @@ import ButtonAppBar from './Components/ButtonAppBar';
 
 const App = () => {
   return (
-    <div>
+    <div className="content">
       <div>
         <ButtonAppBar />
       </div>
@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/projects" component={Projects} />
         <Route path="/resume" component={Resume} />
       </Switch>
-      <footer>
+      <footer className="footer">
         Made by Shu
       </footer>
     </div>

@@ -9,8 +9,8 @@ import ButtonAppBar from './Components/ButtonAppBar';
 
 const App = () => {
   return (
-    <div className="content">
-      <div>
+    <div className="app">
+      <div className="navbar">
         <ButtonAppBar />
       </div>
       <Switch>
@@ -20,9 +20,9 @@ const App = () => {
         <Route path="/projects" component={Projects} />
         <Route path="/resume" component={Resume} />
       </Switch>
-      <footer className="footer">
+      {/* <footer className="footer">
         Made by Shu
-      </footer>
+      </footer> */}
     </div>
   );
 }

@@ -10,7 +10,29 @@
   bottom: 0;
 }
 
+.homepage {
+  text-align: center;
+}
+
+.homepage hr {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.hero p {
+  font-weight: bold;
+}
+
 .avatar {
   height: 250px;
   padding-top: 5em;
+}
+
+.banner {
+  color: white;
+  margin: auto;
+  background-color: black;
+  opacity: 0.5;
+  width: 50%;
+  border-radius: 10px;
 }

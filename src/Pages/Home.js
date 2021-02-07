@@ -13,7 +13,7 @@ const Home = () => {
           <div className="hero">
             <h3>Full Stack Developer</h3>
             <hr />
-            <p> ReactJS || Ruby on Rails || JavaScript || Ruby || HTML/CSS || Redux || Jest || NodeJS || RecoilJS </p>
+            <p> ReactJS || Ruby on Rails || JavaScript || Ruby || HTML/CSS || Redux || Jest || NodeJS || RecoilJS || Postgres || GraphQL || Bootstrap </p>
           </div>
         </Grid>
         <Grid item xs={12}>

@@ -19,8 +19,9 @@
   border: 1px solid black;
 }
 
-.hero p {
-  font-weight: bold;
+.hero {
+  font-family: Arial;
+  /* font-weight: bold; */
 }
 
 .avatar {

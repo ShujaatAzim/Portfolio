@@ -5,13 +5,13 @@ import Contact from './Pages/Contact';
 import Projects from './Pages/Projects';
 import Resume from './Pages/Resume';
 import { Switch, Route } from 'react-router-dom';
-import ButtonAppBar from './Components/ButtonAppBar';
+import NavBar from './Components/NavBar';
 
 const App = () => {
   return (
     <div className="app">
       <div className="navbar">
-        <ButtonAppBar />
+        <NavBar />
       </div>
       <Switch>
         <Route exact path="/" component={Home} />

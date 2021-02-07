@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const ButtonAppBar = () => {
+const NavBar = () => {
   const classes = useStyles();
   const history = useHistory();
 
@@ -23,7 +23,7 @@ const ButtonAppBar = () => {
     <div className={classes.root}>
       <AppBar color="transparent" elevation={0} position="static">
         <Toolbar>
-          <Typography variant="h6" className={classes.title}>
+          <Typography variant="h6" className={classes.title} onClick={() => history.push("/")}>
             Shujaat Azim
           </Typography>
           <Button color="inherit" onClick={() => history.push("/")}>Home</Button>
@@ -37,4 +37,4 @@ const ButtonAppBar = () => {
   );
 }
 
-export default ButtonAppBar
+export default NavBar

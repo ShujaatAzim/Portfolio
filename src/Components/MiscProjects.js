@@ -1,11 +1,29 @@
 import React from 'react';
+import { Grid } from '@material-ui/core';
+import ProjectCard from './ProjectCard';
 
 const MiscProjects = () => {
   return (
-    <div>
-      <h1>Miscellaneous Projects</h1>
+    <div style={{ marginTop: "2rem" }}>
+      <Grid container direction="row" justify="space-between">
+        <div>
+          <Grid item xs={12}>
+            <ProjectCard />
+          </Grid>
+        </div>
+        <div>
+          <Grid item xs={12}>
+            <ProjectCard />
+          </Grid>
+        </div>
+        <div>
+          <Grid item xs={12}>
+            <ProjectCard />
+          </Grid>
+        </div>
+      </Grid>
     </div>
   );
 }
 
-export default MiscProjects
+export default MiscProjects;

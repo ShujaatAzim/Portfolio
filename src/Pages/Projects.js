@@ -15,10 +15,10 @@ const Projects = () => {
         <ProjectsTabBar setView={setView} />
       </div>
       <div>
-        { view === "react" ? <ReactProjects /> : 
-          view === "rails" ? <RailsProjects /> : 
-          view === "full stack" ? <FullStackProjects /> : 
-          view === "misc" ? <MiscProjects /> :
+        { view === "react" ? <ReactProjects projectType={view} /> : 
+          view === "rails" ? <RailsProjects projectType={view} /> : 
+          view === "full stack" ? <FullStackProjects projectType={view} /> : 
+          view === "misc" ? <MiscProjects projectType={view} /> :
           null }
       </div>
     </div>

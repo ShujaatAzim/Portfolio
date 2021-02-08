@@ -13,43 +13,45 @@ const useStyles = makeStyles({
     maxWidth: 345,
   },
   media: {
-    height: 270,
+    height: 275,
   },
 });
 
-let projectTypes = {
+const projectsData = {
   "full stack": {
     "title": "Full Stack Project",
     "image": "https://static.thenounproject.com/png/390337-200.png"
   },
   "react": {
     "title": "React Project",
-    "image": "https://www.pinclipart.com/picdir/middle/537-5374089_react-js-logo-clipart.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
   },
   "rails": {
     "title": "Rails Project",
-    "image": "https://www.clipartmax.com/png/middle/109-1092427_learn-to-build-modern-web-apps-with-angularjs-and-ruby-ruby-on.png"
+    "image": "https://www.yaya.today/img/referral/Technologies/tech_rubyonrails.png"
   },
   "misc": {
     "title": "Miscellaneous Project",
-    "image": "https://e1.pngegg.com/pngimages/288/462/png-clipart-wordcons-misc-text.png"
+    "image": "https://clubrunner.blob.core.windows.net/00000000127/Images/misc.png"
   }
 }
 
 const ProjectCard = props => {
   const classes = useStyles();
 
+  const { projectType } = props;
+
   return (
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={projectTypes[props.projectType].image}
+          image={projectsData[projectType].image}
           title="project logo"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            {projectTypes[props.projectType].title}
+            {projectsData[projectType].title}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

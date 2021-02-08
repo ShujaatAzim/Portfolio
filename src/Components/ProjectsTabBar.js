@@ -23,7 +23,7 @@ const ProjectsTabBar = props => {
   };
 
   return (
-    <Paper className={classes.root} elevation={0} style={{ backgroundColor: "transparent", borderRadius: "0px" }}>
+    <Paper className={classes.root} elevation={0} style={{ backgroundColor: "transparent", borderRadius: "0px", marginTop: "2rem" }}>
       <Tabs value={value} onChange={handleChange} centered>
         <Tab label="Full Stack" />
         <Tab label="React" />

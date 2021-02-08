@@ -7,8 +7,8 @@ const FullStackProjects = props => {
   const { projectType } = props;
 
   return (
-    <div style={{ marginTop: "2rem" }}>
-      <Grid container direction="row" justify="space-between">
+    <div className="project-cards">
+      <Grid container direction="row" justify="space-between" >
         <div>
           <Grid item xs={12}>
             <ProjectCard projectType={projectType} />

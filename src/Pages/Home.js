@@ -25,9 +25,9 @@ const Home = () => {
           </div>
         </Grid>
       </Grid>
-      <div style={{ marginTop: "1rem"}}>
+      {/* <div style={{ marginTop: "1rem"}}>
         Test
-      </div>
+      </div> */}
     </div>
   );
 }

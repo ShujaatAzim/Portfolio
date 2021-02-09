@@ -1,7 +1,7 @@
 .app {
-  background: #CCCCB2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #757519, #CCCCB2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #757519, #CCCCB2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #CCCCB2;
+  background: -webkit-linear-gradient(to right, #757519, #CCCCB2);
+  background: linear-gradient(to right, #757519, #CCCCB2);
 }
 
 .footer {
@@ -38,4 +38,5 @@
 
 .project-cards {
   margin-top: 3rem;
+  padding-bottom: 3rem;
 }

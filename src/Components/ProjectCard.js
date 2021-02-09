@@ -42,7 +42,7 @@ const ProjectCard = props => {
   const { projectType } = props;
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} elevation={10}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -58,7 +58,7 @@ const ProjectCard = props => {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
+      <CardActions style={{ justifyContent: "space-around" }}>
         <Button size="small" color="primary">
           GitHub
         </Button>

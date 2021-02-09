@@ -6,6 +6,7 @@ import Projects from './Pages/Projects';
 import Resume from './Pages/Resume';
 import { Switch, Route } from 'react-router-dom';
 import NavBar from './Components/NavBar';
+import { HiHeart } from 'react-icons/hi';
 
 const App = () => {
   return (
@@ -20,9 +21,10 @@ const App = () => {
         <Route path="/projects" component={Projects} />
         <Route path="/resume" component={Resume} />
       </Switch>
-      {/* <footer className="footer">
-        Made by Shu
-      </footer> */}
+      <footer className="footer">
+        <hr />
+        Made with React and <HiHeart /> by Shujaat Azim
+      </footer>
     </div>
   );
 }

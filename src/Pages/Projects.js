@@ -10,7 +10,7 @@ const Projects = () => {
   const [view, setView] = useState("full stack")
 
   return (
-    <div style={{ height: "80vh" }}>
+    <div style={{ height: "79.6vh" }}>
       <div>
         <ProjectsTabBar setView={setView} />
       </div>

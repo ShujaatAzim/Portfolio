@@ -1,4 +1,7 @@
 .app {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
   background: #CCCCB2;
   background: -webkit-linear-gradient(to right, #757519, #CCCCB2);
   background: linear-gradient(to right, #757519, #CCCCB2);
@@ -9,7 +12,7 @@
 }
 
 .footer {
-  height: 5vh;
+  height: 7vh;
   text-align: center;
 }
 

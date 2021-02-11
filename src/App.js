@@ -11,16 +11,18 @@ import { HiHeart } from 'react-icons/hi';
 const App = () => {
   return (
     <div className="app">
-      <div className="navbar">
+      <div className="header">
         <NavBar />
       </div>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/resume" component={Resume} />
-      </Switch>
+      <div className="body">
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/resume" component={Resume} />
+        </Switch>
+      </div>
       <footer className="footer">
         <hr />
         Made with React and <HiHeart /> by Shujaat Azim

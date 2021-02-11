@@ -7,8 +7,12 @@
   background: linear-gradient(to right, #757519, #CCCCB2);
 }
 
-.navbar {
+.header {
   height: 8vh;
+}
+
+.body {
+  height: 85vh;
 }
 
 .footer {

@@ -4,7 +4,7 @@ import { FaDev, FaFreeCodeCamp, FaGithubSquare, FaLinkedin } from 'react-icons/f
 
 const Home = () => {
   return (
-    <div className="homepage" style={{ height: "85vh" }}>
+    <div className="homepage">
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <img className="avatar" src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-512.png" alt="profile" />

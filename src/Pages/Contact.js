@@ -1,4 +1,5 @@
 import React from 'react';
+import { Grid } from '@material-ui/core';
 
 const Contact = () => {
   return (
@@ -7,18 +8,15 @@ const Contact = () => {
       <Grid container>
         <Grid item xs={6}>
           <div>
-            Profile Pic
+          This will be side one with profile pic.
           </div>
         </Grid>
         <Grid item xs={6}>
           <div>
-            Other Stuff
+            This will be side two with other stuff.
           </div>
         </Grid>
       </Grid>
-      <div>
-        This will be side one.
-      </div>
     </div>
   );
 }

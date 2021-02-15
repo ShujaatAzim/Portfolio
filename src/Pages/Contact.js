@@ -7,12 +7,12 @@ const Contact = () => {
       <h1>Contact Page</h1>
       <Grid container>
         <Grid item xs={6}>
-          <div>
+          <div style={{ textAlign: "center" }}>
           This will be side one with profile pic.
           </div>
         </Grid>
         <Grid item xs={6}>
-          <div>
+          <div style={{ textAlign: "center" }}>
             This will be side two with other stuff.
           </div>
         </Grid>

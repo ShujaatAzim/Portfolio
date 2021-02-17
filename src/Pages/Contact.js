@@ -22,6 +22,9 @@ const Contact = () => {
         <Grid item xs={6}>
           <div style={{ textAlign: "center", margin: "auto" }}>
             <ContactList />
+            <div>
+              
+            </div>
           </div>
         </Grid>
       </Grid>

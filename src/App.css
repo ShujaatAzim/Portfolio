@@ -56,3 +56,23 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+
+.contact-page { 
+  margin: auto;
+  justify-content: center;
+  font-family: Anton;
+  margin-top: 2rem;
+}
+
+.contact-grid {
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  height: 550px;
+  border: 2px solid red
+}
+
+.contact-info {
+   font-size: 66px;
+   padding-right: 5rem;
+}

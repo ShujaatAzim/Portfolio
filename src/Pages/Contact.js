@@ -4,13 +4,13 @@ import { Grid } from '@material-ui/core';
 
 const Contact = () => {
   return (
-    <div style={{ fontFamily: "Anton", height: "85vh", marginTop: "2rem" }}>
+    <div className="contact-page">
       <Grid container>
-        <Grid item xs={6}>
-          <div style={{ textAlign: "center", margin: "auto" }}>
+        <Grid className="contact-grid" item xs={6}>
+          <div>
             <h1>Shujaat Azim</h1>
             <img className="avatar" src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-512.png" 
-              style={{ height: "250px" }} alt="profile" />
+              style={{ paddingTop: "1rem" }} alt="profile" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
@@ -19,11 +19,11 @@ const Contact = () => {
             </p>
           </div>
         </Grid>
-        <Grid item xs={6}>
-          <div style={{ textAlign: "center", margin: "auto" }}>
-            <ContactList />
-            <div>
-              
+        <Grid className="contact-grid" item xs={6}>
+          <div>
+            <h1>Contact Me</h1>
+            <div className="contact-info">
+              <ContactList />
             </div>
           </div>
         </Grid>

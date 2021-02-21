@@ -5,6 +5,8 @@ import ProjectCard from './ProjectCard';
 const MiscProjects = props => {
 
   const { projectType } = props;
+
+  // this component will eventually be consolidated
   
   return (
     <div className="project-cards">

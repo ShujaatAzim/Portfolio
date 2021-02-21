@@ -22,6 +22,7 @@ const App = () => {
           <Route path="/resume" component={Resume} />
         </Switch>
       </div>
+      {/* damned footer still overlaps site content when screen is resized... */}
       <footer className="footer">
         <hr />
         Built with React by Shujaat Azim

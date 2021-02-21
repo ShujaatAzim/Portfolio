@@ -6,6 +6,8 @@ const FullStackProjects = props => {
 
   const { projectType } = props;
 
+  // this component will eventually be consolidated
+
   return (
     <div className="project-cards">
       <Grid container direction="row" justify="space-around" >

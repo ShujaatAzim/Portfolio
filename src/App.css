@@ -1,3 +1,5 @@
+/* bigger parts of app */
+
 .app {
   display: flex;
   height: 100vh;
@@ -34,15 +36,26 @@
   border: 1px solid black;
 }
 
-.hero {
-  font-family: Arial;
-  margin-left: 15%;
-  margin-right: 15%;
+.contact-page { 
+  /* font-family: Anton; */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  padding-top: 3rem;
+  width: 85%;
 }
+
+
+/* smaller parts of app */
 
 .avatar {
   height: 250px;
   padding-top: 5em;
+}
+
+.hero {
+  font-family: Arial;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .icons {
@@ -57,25 +70,13 @@
   padding-bottom: 3rem;
 }
 
-.contact-page { 
-  margin: auto;
-  justify-content: center;
-  font-family: Anton;
-  margin-top: 2rem;
-}
-
 .contact-grid {
   justify-content: center;
   text-align: center;
-  width: 80%;
-  height: 550px;
-}
-
-contact-page p {
-  
 }
 
 .contact-info {
    font-size: 66px;
-   padding-right: 5rem;
+   margin-left: 5rem;
+   padding-top: 2.5rem;
 }

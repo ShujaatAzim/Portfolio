@@ -2,7 +2,7 @@ import React from 'react';
 
 const Resume = () => {
   return (
-    <div style={{ fontFamily: "Anton", height: "85vh" }}>
+    <div className="resume-page">
       <h1>Resume Page</h1>
     </div>
   );

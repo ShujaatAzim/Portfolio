@@ -5,8 +5,8 @@ import { Grid } from '@material-ui/core';
 const Contact = () => {
   return (
     <div className="contact-page">
-      <Grid container>
-        <Grid className="contact-grid" item xs={6}>
+      <Grid className="contact-grid" container>
+        <Grid item xs={6}>
           <div>
             <h1>Shujaat Azim</h1>
             <img className="avatar" src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-512.png" 
@@ -19,7 +19,7 @@ const Contact = () => {
             </p>
           </div>
         </Grid>
-        <Grid className="contact-grid" item xs={6}>
+        <Grid item xs={6}>
           <div>
             <h1>Contact Me</h1>
             <div className="contact-info">

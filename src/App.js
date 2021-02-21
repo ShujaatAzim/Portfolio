@@ -24,7 +24,7 @@ const App = () => {
       </div>
       <footer className="footer">
         <hr />
-        Made with React by Shujaat Azim
+        Built with React by Shujaat Azim
       </footer>
     </div>
   );

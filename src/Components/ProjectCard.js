@@ -17,6 +17,10 @@ const useStyles = makeStyles({
   },
 });
 
+// this will be a huge object with all my projects' details and will most likely be a separate, imported file eventually.
+// it will have all the details of the projects, and this component will be able to iterate through it and take what's needed.
+// Ultimately the goal is to removed the need for the three separate project components, and instead have one reuseable one.
+
 const projectsData = {
   "full stack": {
     "title": "Full Stack Project",

@@ -1,10 +1,8 @@
 import React from 'react';
-import { Grid } from '@material-ui/core';
 
 const About = () => {
   return (
-    <div style={{ fontFamily: "Anton", height: "85vh" }}>
-      <Grid container></Grid>
+    <div className="about-page">
       <h1>About Page</h1>
     </div>
   )

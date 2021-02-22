@@ -21,9 +21,9 @@ const Contact = () => {
         </Grid>
         <Grid item xs={6}>
           <div>
-            <h1>Contact Me</h1>
+            <h1>Contact Me</h1> 
             <div className="contact-info">
-              <ContactList />
+              <ContactList /> {/* the text in this list is not collapsing when screen is resized, except for the phone number which is. */}
             </div>
           </div>
         </Grid>

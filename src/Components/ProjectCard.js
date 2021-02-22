@@ -7,6 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import { projectsData } from '../Supplemental/ProjectsData';
 
 const useStyles = makeStyles({
   root: {
@@ -17,29 +18,6 @@ const useStyles = makeStyles({
   },
 });
 
-// this will be a huge object with all my projects' details and will most likely be a separate, imported file eventually.
-// it will have all the details of the projects, and this component will be able to iterate through it and take what's needed.
-// Ultimately the goal is to removed the need for the three separate project components, and instead have one reuseable one.
-
-const projectsData = {
-  "full stack": {
-    "title": "Full Stack Project",
-    "image": "https://static.thenounproject.com/png/390337-200.png"
-  },
-  "react": {
-    "title": "React Project",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-  },
-  "rails": {
-    "title": "Rails Project",
-    "image": "https://www.yaya.today/img/referral/Technologies/tech_rubyonrails.png"
-  },
-  "misc": {
-    "title": "Miscellaneous Project",
-    "image": "https://clubrunner.blob.core.windows.net/00000000127/Images/misc.png"
-  }
-}
-
 const ProjectCard = props => {
   const classes = useStyles();
 
@@ -48,17 +26,13 @@ const ProjectCard = props => {
   return (
     <Card className={classes.root} elevation={10}>
       <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image={projectsData[projectType].image}
-          title="project logo"
-        />
+        <CardMedia className={classes.media} image={projectsData[projectType].image} title="project logo" />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            {projectsData[projectType].title}
+            { projectsData[projectType].title }
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            { projectsData[projectType].desc }
           </Typography>
         </CardContent>
       </CardActionArea>

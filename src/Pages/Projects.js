@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import ProjectsTabBar from '../Components/ProjectsTabBar';
-import FullStackProjects from '../Components/FullStackProjects';
-import ReactProjects from '../Components/ReactProjects';
-import RailsProjects from '../Components/RailsProjects';
-import MiscProjects from '../Components/MiscProjects';
+import { Grid } from '@material-ui/core';
+import ProjectCard from '../Components/ProjectCard';
 
 const Projects = () => {
 
@@ -14,12 +12,24 @@ const Projects = () => {
       <div>
         <ProjectsTabBar setView={setView} />
       </div>
-      <div>
-        { view === "react" ? <ReactProjects projectType={view} /> : 
-          view === "rails" ? <RailsProjects projectType={view} /> : 
-          view === "full stack" ? <FullStackProjects projectType={view} /> : 
-          view === "misc" ? <MiscProjects projectType={view} /> :
-          null }
+      <div className="project-cards">
+        <Grid container direction="row" justify="space-around" >
+          <div>
+            <Grid item xs={12}>
+              <ProjectCard projectType={view} />
+            </Grid>
+          </div>
+          <div>
+            <Grid item xs={12}>
+              <ProjectCard projectType={view} />
+            </Grid>
+          </div>
+          <div>
+            <Grid item xs={12}>
+              <ProjectCard projectType={view} />
+            </Grid>
+          </div>
+        </Grid>
       </div>
     </div>
   );

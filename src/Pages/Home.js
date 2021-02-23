@@ -7,7 +7,9 @@ const Home = () => {
     <div className="homepage">
       <Grid container spacing={2}>
         <Grid item xs={12}>
-          <img className="avatar" src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-512.png" alt="profile" />
+          <img className="avatar" 
+            src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-512.png" 
+            alt="profile" />
         </Grid>
         <Grid item xs={12}>
           <div className="hero">

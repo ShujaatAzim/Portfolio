@@ -2,7 +2,6 @@
 
 .app {
   display: flex;
-  height: 100vh;
   flex-direction: column;
   background: #CCCCB2;
   background: -webkit-linear-gradient(to right, #757519, #CCCCB2);
@@ -14,7 +13,8 @@
 }
 
 .body {
-  height: 85vh;
+  /* I want this to have a 'set' height for everything that isn't scrollable. */
+  background: inherit; /* this is redundant, and just here to get rid of the error, will change. */
 }
 
 .footer {
@@ -27,6 +27,8 @@
   border: 1px solid black;
 }
 
+/* Home Page */
+
 .homepage {
   text-align: center;
 }
@@ -35,17 +37,6 @@
   width: 50%;
   border: 1px solid black;
 }
-
-.contact-page { 
-  /* font-family: Anton; */
-  font-family: Arial, Helvetica, sans-serif;
-  margin: auto;
-  padding-top: 3rem;
-  width: 85%;
-}
-
-
-/* smaller parts of app */
 
 .avatar {
   height: 250px;
@@ -65,9 +56,13 @@
   width: 50%;
 }
 
-.project-cards {
+/* Contact Page */
+
+.contact-page { 
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  width: 85%;
 }
 
 .contact-grid {
@@ -76,7 +71,34 @@
 }
 
 .contact-info {
-   font-size: 66px;
-   margin-left: 5rem;
-   padding-top: 2.5rem;
+  font-size: 66px;
+  margin-left: 5rem;
+  padding-top: 2.5rem;
+}
+
+/* Projects Page */
+
+.project-cards {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Resume Page */
+
+.resume-page {
+  padding-top: 3rem;
+}
+
+.resume-page hr {
+  border: 1px solid black;
+  width: 60%;
+}
+
+.resume-left {
+  padding: 2rem;
+  text-align: center;
+}
+
+.resume-right {
+  padding: 2rem;
 }

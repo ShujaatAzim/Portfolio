@@ -17,7 +17,7 @@ const ProjectsTabBar = props => {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
-    newValue === 0 ? props.setView("full stack") : 
+    newValue === 0 ? props.setView("fullstack") : 
     newValue === 1 ? props.setView("react") : 
     newValue === 2 ? props.setView("rails") :
     props.setView("misc")
@@ -25,7 +25,7 @@ const ProjectsTabBar = props => {
   };
 
   return (
-    <Paper className={classes.root} elevation={0} style={{ backgroundColor: "transparent", borderRadius: "0px", marginTop: "2rem" }}>
+    <Paper className={classes.root} elevation={0} style={{ backgroundColor: "transparent", borderRadius: "0px", marginTop: "1.5rem" }}>
       <Tabs value={value} onChange={handleChange} centered style={{ flexDirection: "row" }}>
         <Tab label="Full Stack" icon={<RiStackLine />} />
         <Tab label="React" icon={<RiReactjsFill />} />

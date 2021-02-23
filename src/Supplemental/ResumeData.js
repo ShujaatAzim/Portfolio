@@ -18,6 +18,7 @@ export const resumeData = {
   "employment": [
     {
       "place": "Practical Solutions, Inc.",
+      "title": "Software Engineer",
       "time": "February 2020 - April 2020",
       "description": [
         "thing 1",
@@ -28,6 +29,7 @@ export const resumeData = {
     },
     {
       "place": "Steward Partners",
+      "title": "Associate",
       "time": "September 2017 - April 2019",
       "description": [
         "thing 1",
@@ -39,30 +41,61 @@ export const resumeData = {
   ],
   "skills": [
     {
-      "place": "JavaScript",
-      "time": "September 2016 - Present",
-      "description": [
-        "FreeCodeCamp",
-        "Codecademy",
-        "Scrimba"
-      ]
+      "name": "React",
+      "description": "Modern client-side single-page application development framework."
+    }, 
+    {
+      "name": "Ruby on Rails",
+      "description": "Modern server-side web REST API development framework."
     },
     {
-      "place": "Ruby",
-      "time": "May 2019 - Present",
-      "description": [
-        "Flatiron School",
-        "Ruby on Rails"
-      ]
+      "name": "State Management libraries",
+      "description": "Redux and RecoilJS."
+    },
+    {
+      "name": "Design/CSS libraries",
+      "description": "Bootstrap, Material UI, Semantic UI, Bulma"
+    },
+    {
+      "name": "Postgres",
+      "description": "Relational database."
+    },
+    {
+      "name": "Sqlite",
+      "description": "Relational database."
+    },
+    {
+      "name": "GraphQL",
+      "description": "Non-relational database API."
+    },
+    {
+      "name": "Jest",
+      "description": "Testing library for JavaScript and React."
+    },
+    {
+      "name": "RSpec",
+      "description": "Testing library for Ruby on Rails."
+    },
+    {
+      "name": "Programming Languages",
+      "description": "JavaScript, Ruby, HTML/CSS, SQL"
     }
   ],
   "extra": [
     {
-      "place": "hobby 1",
-      "time": "past - present",
+      "name": "hobby 1",
+      "time": "back then - present",
       "description": [
         "fun",
         "relaxing"
+      ]
+    },
+    {
+      "name": "hobby 2",
+      "time": "back then - present",
+      "description": [
+        "also fun",
+        "also relaxing"
       ]
     }
   ]

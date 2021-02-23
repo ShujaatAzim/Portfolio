@@ -9,13 +9,36 @@ const ResumeContent = props => {
     <div>
       { resumeData[content].map(item => {
         return (
+          content === "education" ?
           <div>
-            <p>{item.place}</p>
+            <h2>{item.place}</h2>
             <p>{item.time}</p>
             <ul>
               {item.description.map(desc => <li>{desc}</li>)}
             </ul>
-          </div>
+          </div> :
+          content === "employment" ? 
+          <div>
+            <h2>{item.place}</h2>
+            <p><i>{item.title}</i></p>
+            <p>{item.time}</p>
+            <ul>
+              {item.description.map(desc => <li>{desc}</li>)}
+            </ul>
+          </div> : 
+          content === "skills" ? 
+          <div>
+            <h2>{item.name}</h2>
+            <p>{item.description}</p>
+          </div> : 
+          content === "extra" ?
+          <div>
+            <h2>{item.name}</h2>
+            <p>{item.time}</p>
+            <ul>
+              {item.description.map(desc => <li>{desc}</li>)}
+            </ul>
+          </div> : null
         )}) 
       }
     </div>

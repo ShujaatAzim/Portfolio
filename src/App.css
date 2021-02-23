@@ -13,8 +13,7 @@
 }
 
 .body {
-  /* I want this to have a 'set' height for everything that isn't scrollable. */
-  background: inherit; /* this is redundant, and just here to get rid of the error, will change. */
+  min-height: 85vh;
 }
 
 .footer {
@@ -101,4 +100,9 @@
 
 .resume-right {
   padding: 2rem;
+}
+
+.resume-content {
+  margin-top: 2rem;
+  margin-left: 2rem;
 }

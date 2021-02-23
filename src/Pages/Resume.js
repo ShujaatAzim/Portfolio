@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import ResumeTabBar from '../Components/ResumeTabBar';
-import ResumeEducation from '../Components/ResumeEducation';
-import ResumeEmployment from '../Components/ResumeEmployment';
-import ResumeSkills from '../Components/ResumeSkills';
-import ResumeExtras from '../Components/ResumeExtras';
+import ResumeContent from '../Components/ResumeContent';
 import { Grid } from '@material-ui/core';
 
 const Resume = () => {
@@ -12,9 +9,6 @@ const Resume = () => {
 
   return (
     <div className="resume-page">
-      <div>
-        <ResumeTabBar setView={setView} />
-      </div>
       <Grid container>
         <Grid item xs={5}>
           <div className="resume-left">
@@ -41,10 +35,12 @@ const Resume = () => {
         </Grid>
         <Grid item xs={7}>
           <div className="resume-right">
-            { view === "education" ? <ResumeEducation /> : 
-              view === "employment" ? <ResumeEmployment /> : 
-              view === "skills" ? <ResumeSkills /> :
-              view === "extra" ? <ResumeExtras /> : null }
+            <div>
+              <ResumeTabBar setView={setView} />
+            </div>
+            <div className="resume-content">
+              <ResumeContent content={view} />
+            </div>
           </div>
         </Grid>
       </Grid>

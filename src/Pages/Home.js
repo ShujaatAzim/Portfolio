@@ -13,7 +13,7 @@ const Home = () => {
         </Grid>
         <Grid item xs={12}>
           <div className="hero">
-            <h3>Full Stack Developer</h3>
+            <h3>Hi, I'm Shu! I'm a Full Stack Developer :)</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
               ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
               in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 

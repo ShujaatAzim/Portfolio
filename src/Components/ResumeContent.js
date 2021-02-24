@@ -19,7 +19,8 @@ const ResumeContent = props => {
           </div> :
           content === "employment" ? 
           <div>
-            <h2>{item.place}</h2>
+            <h3>{item.place}</h3>
+            <p>{item.city}</p>
             <p><i>{item.title}</i></p>
             <p>{item.time}</p>
             <ul>

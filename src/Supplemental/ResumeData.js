@@ -18,6 +18,7 @@ export const resumeData = {
   "employment": [
     {
       "place": "Practical Solutions, Inc.",
+      "city": "Washington, DC",
       "title": "Software Engineer",
       "time": "February 2020 - April 2020",
       "description": [
@@ -29,6 +30,7 @@ export const resumeData = {
     },
     {
       "place": "Steward Partners",
+      "city": "Bethesda, MD",
       "title": "Associate",
       "time": "September 2017 - April 2019",
       "description": [
@@ -37,7 +39,55 @@ export const resumeData = {
         "thing 3",
         "reason for leaving"
       ]
-    }
+    },
+    {
+      "place": "M&T Bank",
+      "city": "Potomac, MD",
+      "title": "Relationship Banker",
+      "time": "June 2014 - August 2017",
+      "description": [
+        "thing 1",
+        "thing 2",
+        "thing 3",
+        "reason for leaving"
+      ]
+    },
+    {
+      "place": "Washington Hospital Center Radiology Assistant Program",
+      "city": "Washington, DC",
+      "title": "Program Leader",
+      "time": "June 2009 - September 2012",
+      "description": [
+        "thing 1",
+        "thing 2",
+        "thing 3",
+        "reason for leaving"
+      ]
+    },
+    {
+      "place": "National Institutes of Health",
+      "city": "Bethesda, MD",
+      "title": "Student Research Intern",
+      "time": "Summers of 2009, 2010, 2011, 2012",
+      "description": [
+        "thing 1",
+        "thing 2",
+        "thing 3",
+        "reason for leaving"
+      ]
+    },
+    {
+      "place": "Safeway Inc.",
+      "city": "Potomac, MD",
+      "title": "Cashier",
+      "time": "August 2008 - August 2009",
+      "description": [
+        "thing 1",
+        "thing 2",
+        "thing 3",
+        "reason for leaving"
+      ]
+    },
   ],
   "skills": [
     {

@@ -30,7 +30,6 @@ const Resume = () => {
             <p>shujaat.azim@gmail.com</p>
             <h5>Website</h5>
             <p>https://www.shujaatazim.com</p>
-          <hr />
           </div>
         </Grid>
         <Grid item xs={7}>

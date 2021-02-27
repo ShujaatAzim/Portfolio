@@ -91,62 +91,86 @@ export const resumeData = {
   ],
   "skills": [
     {
-      "name": "React",
-      "description": "Modern client-side single-page application development framework."
+      "name": "Frameworks",
+      "description": "ReactJS, Ruby on Rails"
     }, 
     {
-      "name": "Ruby on Rails",
-      "description": "Modern server-side web REST API development framework."
+      "name": "State Management Libraries",
+      "description": "Redux, RecoilJS"
     },
     {
-      "name": "State Management libraries",
-      "description": "Redux and RecoilJS."
-    },
-    {
-      "name": "Design/CSS libraries",
+      "name": "Design/CSS Libraries",
       "description": "Bootstrap, Material UI, Semantic UI, Bulma"
     },
     {
-      "name": "Postgres",
-      "description": "Relational database."
+      "name": "Databases",
+      "description": "SQLite, Postgres, MongoDB, GraphQL"
     },
     {
-      "name": "Sqlite",
-      "description": "Relational database."
-    },
-    {
-      "name": "GraphQL",
-      "description": "Non-relational database API."
-    },
-    {
-      "name": "Jest",
-      "description": "Testing library for JavaScript and React."
-    },
-    {
-      "name": "RSpec",
-      "description": "Testing library for Ruby on Rails."
+      "name": "Testing Libraries",
+      "description": "Jest, RSpec"
     },
     {
       "name": "Programming Languages",
-      "description": "JavaScript, Ruby, HTML/CSS, SQL"
+      "description": "JavaScript, Ruby, HTML/CSS"
     }
   ],
   "extra": [
     {
-      "name": "hobby 1",
-      "time": "back then - present",
+      "name": "National Institutes of Health Patient Ambassador Volunteer",
+      "time": "June 2009 - August 2014",
       "description": [
         "fun",
         "relaxing"
       ]
     },
     {
-      "name": "hobby 2",
-      "time": "back then - present",
+      "name": "Rock Climbing",
+      "time": "Summer 2017 - present",
       "description": [
         "also fun",
         "also relaxing"
       ]
-    }
+    },
+    {
+      "name": "Video Gaming",
+      "time": "1994 - present",
+      "description": [
+        "also fun",
+        "also relaxing"
+      ]
+    },
+    {
+      "name": "Fishing",
+      "time": "Summer 2005 - present",
+      "description": [
+        "also fun",
+        "also relaxing"
+      ]
+    },
+    {
+      "name": "Fishkeeping",
+      "time": "Summer 2011 - present",
+      "description": [
+        "also fun",
+        "also relaxing"
+      ]
+    },
+    {
+      "name": "Gardening",
+      "time": "Spring 2014 - present",
+      "description": [
+        "also fun",
+        "also relaxing"
+      ]
+    },
+    {
+      "name": "Amateur Astronomy & Stargazing",
+      "time": "Winter 2015 - present",
+      "description": [
+        "also fun",
+        "also relaxing"
+      ]
+    },
   ]
 }

@@ -22,10 +22,10 @@ export const resumeData = {
       "title": "Software Engineer",
       "time": "February 2020 - April 2020",
       "description": [
-        "thing 1",
-        "thing 2",
-        "thing 3",
-        "reason for leaving"
+        "talk about Website stuff",
+        "and Tutorials for clients",
+        "various other hats?",
+        "Left due to Covid-19 Pandemic"
       ]
     },
     {

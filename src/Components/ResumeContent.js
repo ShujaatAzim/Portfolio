@@ -29,15 +29,21 @@ const ResumeContent = props => {
           </div> : 
           content === "skills" ? 
           <div>
-            <h2>{item.name}</h2>
-            <p>{item.description}</p>
+            <h2>{item.name}:</h2>
+            <p>{item.description}</p> {/* don't like this in line font sizing, might change...*/}
           </div> : 
-          content === "extra" ?
+          content === "extras" ?
           <div>
+            <h2><u>Volunteerism</u></h2>
             <h2>{item.name}</h2>
             <p>{item.time}</p>
             <ul>
               {item.description.map(desc => <li>{desc}</li>)}
+            </ul>
+            <br />
+            <h2><u>Hobbies</u></h2>
+            <ul>
+              {item.hobbies.map(desc => <li>{desc}</li>)}
             </ul>
           </div> : null
         )}) 

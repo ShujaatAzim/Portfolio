@@ -22,70 +22,47 @@ export const resumeData = {
       "title": "Software Engineer",
       "time": "February 2020 - April 2020",
       "description": [
-        "talk about Website stuff",
-        "and Tutorials for clients",
-        "various other hats?",
-        "Left due to Covid-19 Pandemic"
+        "Served as primary software engineer, handling our own website and other in-house projects entirely.",
+        "Planned and built an employee hour tracker app, using React and AWS, completely replacing the outdated one",
+        "Assisted in IT services and equipment sales (contracts from Microsoft Partners and other sources) to help teammates.",
+        "Helped create creative marketing campaigns, including emails, Microsoft Partners referrals, and in-person demonstrations.",
+        "Left due to Covid-19 Pandemic."
       ]
     },
     {
-      "place": "Steward Partners",
+      "place": "Steward Partners Global Advisory",
       "city": "Bethesda, MD",
       "title": "Associate",
       "time": "September 2017 - April 2019",
       "description": [
-        "thing 1",
-        "thing 2",
-        "thing 3",
-        "reason for leaving"
+        "Served as initial point-of-contact between six financial advisor teams and their 100+ clients.",
+        "Demonstrated proficiency in financial analysis, and used my skills to actively assist the FA’s with real-time simulations.",
+        "Planned and participated in several financial advisor acquisition events, onboarding FA’s and their 100+ client rolls.",
+        "Maintained an efficient, clean, and presentable office for clients and employees, including supply procurement.",
+        "Left to start Flatiron School."
       ]
     },
     {
-      "place": "M&T Bank",
+      "place": "M&T Bank, Inc.",
       "city": "Potomac, MD",
       "title": "Relationship Banker",
       "time": "June 2014 - August 2017",
       "description": [
-        "thing 1",
-        "thing 2",
-        "thing 3",
-        "reason for leaving"
+        "Fostered and administered a trust-based client-banker environment during a time when clients were very distrustful of banks.",
+        "Handled many responsibilities, including vault and ATM ownership, teller line management, and personal banker duties",
+        "Left to join a dedicated advisory firm and continue growth in the financial world."
       ]
     },
     {
-      "place": "Washington Hospital Center Radiology Assistant Program",
+      "place": "Washington Hospital Center, Radiology Assistant Program",
       "city": "Washington, DC",
       "title": "Program Leader",
       "time": "June 2009 - September 2012",
       "description": [
-        "thing 1",
-        "thing 2",
-        "thing 3",
-        "reason for leaving"
-      ]
-    },
-    {
-      "place": "National Institutes of Health",
-      "city": "Bethesda, MD",
-      "title": "Student Research Intern",
-      "time": "Summers of 2009, 2010, 2011, 2012",
-      "description": [
-        "thing 1",
-        "thing 2",
-        "thing 3",
-        "reason for leaving"
-      ]
-    },
-    {
-      "place": "Safeway Inc.",
-      "city": "Potomac, MD",
-      "title": "Cashier",
-      "time": "August 2008 - August 2009",
-      "description": [
-        "thing 1",
-        "thing 2",
-        "thing 3",
-        "reason for leaving"
+        "Trained pre-med students in the Radiology Assistant role, and served as point of contact between radiologists and students.",
+        "Planned and led monthly meetings with students, and bi-monthly meetings with corporate leadership.",
+        "Prevented the termination of the program by demonstrating strong, responsible, and meticulous leadership.",
+        "Left when the leadership role was changed to require current-student status."
       ]
     },
   ],
@@ -113,63 +90,30 @@ export const resumeData = {
     {
       "name": "Programming Languages",
       "description": "JavaScript, Ruby, HTML/CSS"
+    },
+    {
+      "name": "Version Control",
+      "description": "Git & GitHub"
     }
   ],
-  "extra": [
+  "extras": [
     {
-      "name": "National Institutes of Health Patient Ambassador Volunteer",
+      "name": "National Institutes of Health, Patient Ambassador Program",
       "time": "June 2009 - August 2014",
       "description": [
-        "fun",
-        "relaxing"
-      ]
-    },
-    {
-      "name": "Rock Climbing",
-      "time": "Summer 2017 - present",
-      "description": [
-        "also fun",
-        "also relaxing"
-      ]
-    },
-    {
-      "name": "Video Gaming",
-      "time": "1994 - present",
-      "description": [
-        "also fun",
-        "also relaxing"
-      ]
-    },
-    {
-      "name": "Fishing",
-      "time": "Summer 2005 - present",
-      "description": [
-        "also fun",
-        "also relaxing"
-      ]
-    },
-    {
-      "name": "Fishkeeping",
-      "time": "Summer 2011 - present",
-      "description": [
-        "also fun",
-        "also relaxing"
-      ]
-    },
-    {
-      "name": "Gardening",
-      "time": "Spring 2014 - present",
-      "description": [
-        "also fun",
-        "also relaxing"
-      ]
-    },
-    {
-      "name": "Amateur Astronomy & Stargazing",
-      "time": "Winter 2015 - present",
-      "description": [
-        "also fun",
-        "also relaxing"
+        "Volunteer position in the Radiology Department, primarily tasked with transport of severely ill patients to and from Radiology.",
+        "Used excellent communication skills in order to make patients feel calm and comfortable during an extremely tough time.",
+        "Selected for participation in a YouTube advert to encourage more applications, thanks to excellent reviews of my performance."
+      ],
+      "hobbies": [
+        "Indoor Rock Climbing",
+        "Fishing",
+        "Cooking",
+        "Hiking",
+        "Video Gaming",
+        "Fishkeeping",
+        "Gardening",
+        "Astronomy/Stargazing"
       ]
     },
   ]

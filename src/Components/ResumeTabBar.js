@@ -18,7 +18,7 @@ const ResumeTabBar = props => {
     newValue === 0 ? props.setView("education") : 
     newValue === 1 ? props.setView("employment") : 
     newValue === 2 ? props.setView("skills") :
-    props.setView("extra")
+    props.setView("extras")
     setValue(newValue);
   };
 
@@ -28,7 +28,7 @@ const ResumeTabBar = props => {
         <Tab label="Education" />
         <Tab label="Employment History" />
         <Tab label="Relevant Skills" />
-        <Tab label="Hobbies/Volunteerism" />
+        <Tab label="Volunteerism/Hobbies" />
       </Tabs>
     </Paper>
   );

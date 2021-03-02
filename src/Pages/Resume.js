@@ -18,9 +18,12 @@ const Resume = () => {
             <h2>Shujaat Azim</h2>
             <h4>Full Stack Developer</h4>
             <hr />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-              in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>
+              I am a full stack web developer with a background in, and a passion for, medicine and finance. With some previous self-taught experience 
+              in JavaScript through FreeCodeCamp, I learned full stack web development through Flatiron School’s intensive, in-person bootcamp. 
+              I bring strong skills in programming, leadership, teamwork, communication, organization, self-motivation, and presentation to the table. 
+              All of those skills are from first-hand experience, and they will help, and have already helped, companies with big ideas change the world.
+            </p>
             <hr />
             <h5>Address</h5>
             <p>10301 Holly Hill Place, Potomac MD 20854</p>

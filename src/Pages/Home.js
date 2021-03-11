@@ -21,7 +21,8 @@ const Home = () => {
               All of those skills are from first-hand experience, and they will help, and have already helped, companies with big ideas change the world.
             </p>
             <hr />
-            <p> ReactJS || Ruby on Rails || JavaScript || Ruby || HTML/CSS || Redux || Jest || NodeJS || RecoilJS || Postgres || GraphQL || Bootstrap </p>
+            <p> ReactJS || Ruby on Rails || JavaScript || Ruby || HTML/CSS || Redux || Jest || NodeJS || RecoilJS || Postgres || GraphQL || Firebase </p>
+            <p> Bootstrap || Bulma || AWS || </p>
           </div>
         </Grid>
         <Grid item xs={12}>

@@ -7,6 +7,9 @@ const About = () => {
       <p>
         This is going to be about me, my story, and what I plan to do.
       </p>
+      <p>
+        1) How I got started.
+      </p>
     </div>
   )
 }

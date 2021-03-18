@@ -15,9 +15,10 @@ const Home = () => {
           <div className="hero">
             <h3>Hi, I'm Shu!</h3>
             <p>
-              I am a full stack web developer with a background in, and a passion for, the medical and financial worlds. With some previous self-taught 
-              experience in JavaScript through FreeCodeCamp, I learned full stack web development through Flatiron School’s intensive, in-person bootcamp. 
-              I bring strong skills in programming, leadership, teamwork, communication, organization, self-motivation, and presentation to the table. 
+              Enthusiastic full stack software developer with a background in, and passion for, technology, medicine, and finance. I am offering strong 
+              skills in programming, leadership, teamwork, communication, organization, self-motivation, and presentation - all gained from first-hand 
+              experience. Seasoned professional with a diverse background in many fields. Quickly adopts and masters new technologies while working in 
+              both team and self-directed settings, and always eager to continue learning and improving.
             </p>
             <hr />
             <p> ReactJS || Ruby on Rails || JavaScript || Ruby || HTML/CSS || Redux || Jest || NodeJS || RecoilJS || Postgres || GraphQL || Firebase </p>

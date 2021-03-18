@@ -19,10 +19,10 @@ const Resume = () => {
             <h4>Full Stack Developer</h4>
             <hr />
             <p>
-              I am a full stack web developer with a background in, and a passion for, medicine and finance. With some previous self-taught experience 
-              in JavaScript through FreeCodeCamp, I learned full stack web development through Flatiron School’s intensive, in-person bootcamp. 
-              I bring strong skills in programming, leadership, teamwork, communication, organization, self-motivation, and presentation to the table. 
-              All of those skills are from first-hand experience, and they will help, and have already helped, companies with big ideas change the world.
+              Enthusiastic full stack software developer with a background in, and passion for, technology, medicine, and finance. I am offering strong 
+              skills in programming, leadership, teamwork, communication, organization, self-motivation, and presentation - all gained from first-hand 
+              experience. Seasoned professional with a diverse background in many fields. Quickly adopts and masters new technologies while working in 
+              both team and self-directed settings, and always eager to continue learning and improving.
             </p>
             <hr />
             <h5>Address</h5>

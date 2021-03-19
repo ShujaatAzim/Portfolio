@@ -12,10 +12,11 @@ const Contact = () => {
             <img className="avatar" src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-512.png" 
               style={{ paddingTop: "1rem" }} alt="profile" />
             <p>
-              Enthusiastic full stack software developer with a background in, and passion for, technology, medicine, and finance. I am offering strong 
-              skills in programming, leadership, teamwork, communication, organization, self-motivation, and presentation - all gained from first-hand 
-              experience. Seasoned professional with a diverse background in many fields. Quickly adopts and masters new technologies while working in 
-              both team and self-directed settings, and always eager to continue learning and improving.
+            I am an enthusiastic full stack software developer with a background in, and passion for, technology, medicine, and finance. I am 
+            offering strong skills in programming, leadership, teamwork, communication, organization, self-motivation, and presentation - all 
+            ained from first-hand experience. I am a seasoned professional with a diverse background in many fields, which enables me to quickly 
+            adopt and master new technologies while working in both team and self-directed settings. I am always eager to continue learning and 
+            improving.
             </p>
           </div>
         </Grid>

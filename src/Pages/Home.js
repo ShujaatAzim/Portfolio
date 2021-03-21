@@ -14,6 +14,7 @@ const Home = () => {
         <Grid item xs={12}>
           <div className="hero">
             <h3>Hi, I'm Shu!</h3>
+            {}
             <p>
               I am an enthusiastic full stack software developer with a background in, and passion for, technology, medicine, and finance. I am 
               offering strong skills in programming, leadership, teamwork, communication, organization, self-motivation, and presentation - all 

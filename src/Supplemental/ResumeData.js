@@ -35,10 +35,10 @@ export const resumeData = {
       "title": "Associate",
       "time": "September 2017 - April 2019",
       "description": [
-        "Served as initial point-of-contact between six financial advisor teams and their 100+ clients.",
-        "Demonstrated proficiency in financial analysis, and used my skills to actively assist the FA’s with real-time simulations.",
-        "Planned and participated in several financial advisor acquisition events, onboarding FA’s and their 100+ client rolls.",
-        "Maintained an efficient, clean, and presentable office for clients and employees, including supply procurement.",
+        "Demonstrated proficiency in financial analysis by actively assisting financial advisors with real-time simulations.",
+        "Planned and participated in bi-yearly financial advisor acquisition events, onboarding new advisor teams and their 100+ client rolls.",
+        "Served as liason between six financial advisor teams and their 300+ clients.",
+        "Responsible for weekly, cost-effective supply procurement.",
         "Left to start Flatiron School."
       ]
     },
@@ -48,8 +48,9 @@ export const resumeData = {
       "title": "Relationship Banker",
       "time": "June 2014 - August 2017",
       "description": [
-        "Fostered and administered a trust-based client-banker environment during a time when clients were very distrustful of banks.",
-        "Handled many responsibilities, including vault and ATM ownership, teller line management, and personal banker duties",
+        "Promoted products/services to over 20 clients daily in order to consistently achieve sales targets and increase engagement.",
+        "Built and maintained a personal client list by fostering trust-based relationships, and became point-of-contact to over 60 clients/families.",
+        "Ensured branch efficiency by taking 100% ownership of the vault and ATM, personally responsible for over $250,000 at any given time.",
         "Left to join a dedicated advisory firm and continue growth in the financial world."
       ]
     },

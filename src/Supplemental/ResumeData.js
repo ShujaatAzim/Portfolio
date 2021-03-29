@@ -22,10 +22,10 @@ export const resumeData = {
       "title": "Software Engineer",
       "time": "February 2020 - April 2020",
       "description": [
-        "Served as primary software engineer, handling our own website and other in-house projects entirely.",
-        "Planned and built an employee hour tracker app, using React and AWS, completely replacing the outdated one",
-        "Assisted in IT services and equipment sales (contracts from Microsoft Partners and other sources) to help teammates.",
-        "Helped create creative marketing campaigns, including emails, Microsoft Partners referrals, and in-person demonstrations.",
+        "Functioned as primary software engineer, 100% responsible for website and other in-house projects entirely.",
+        "Adjusted design parameters of the company website to boost performance and incorporate newer technologies such as React.",
+        "Designed and built in-house employee hour tracker app, using React and AWS, completely replacing previous, outdated one.",
+        "Designed creative marketing campaigns with the team, including using Microsoft Partners referrals, in-person demonstrations, and mass email.",
         "Left due to Covid-19 Pandemic."
       ]
     },

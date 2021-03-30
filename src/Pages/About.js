@@ -19,7 +19,7 @@ const About = () => {
         </Grid>
       </Grid>
     </div>
-  )
+  );
 }
 
 export default About;

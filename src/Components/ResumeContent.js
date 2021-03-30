@@ -46,7 +46,7 @@ const ResumeContent = props => {
               {item.hobbies.map(desc => <li>{desc}</li>)}
             </ul>
           </div> : null
-        )}) 
+        )})
       }
     </div>
   );

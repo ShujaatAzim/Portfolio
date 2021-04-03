@@ -23,7 +23,7 @@ const Home = () => {
             </p>
             <hr />
             <p> ReactJS || Ruby on Rails || JavaScript || Ruby || HTML/CSS || Redux || Jest || NodeJS || RecoilJS || Postgres || GraphQL || Firebase </p>
-            <p> Bootstrap || Bulma || AWS </p>
+            <p> Bootstrap || Bulma || AWS || Heroku</p>
           </div>
         </Grid>
         <Grid item xs={12}>

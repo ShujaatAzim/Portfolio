@@ -1,4 +1,5 @@
 import React from 'react';
+import PersonalStatement from '../Components/PersonalStatement';
 import { Grid } from '@material-ui/core';
 import { FaDev, FaFreeCodeCamp, FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
@@ -14,13 +15,7 @@ const Home = () => {
         <Grid item xs={12}>
           <div className="hero">
             <h3>Hi, I'm Shu! Nice to "meet" you!</h3>
-            <p>
-              I am an enthusiastic full stack software developer with a background in, and passion for, technology, medicine, and finance. I am 
-              offering strong skills in programming, leadership, teamwork, communication, organization, self-motivation, and presentation - all 
-              ained from first-hand experience. I am a seasoned professional with a diverse background in many fields, which enables me to quickly 
-              adopt and master new technologies while working in both team and self-directed settings. I am always eager to continue learning and 
-              improving.
-            </p>
+              <PersonalStatement />
             <hr />
             <p> ReactJS || Ruby on Rails || JavaScript || Ruby || HTML/CSS || Redux || Jest || NodeJS || RecoilJS || Postgres || GraphQL || Firebase </p>
             <p> Bootstrap || Bulma || AWS || Heroku</p>

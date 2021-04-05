@@ -24,7 +24,7 @@ const NavBar = () => {
       <AppBar color="transparent" elevation={0} position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title} onClick={() => history.push("/")}>
-            Shujaat Azim
+            <Button color="inherit" onClick={() => history.push("/")}><b style={{ fontSize: "16px"}}>Shujaat Azim</b></Button>
           </Typography>
           <Button color="inherit" onClick={() => history.push("/")}>Home</Button>
           <Button color="inherit" onClick={() => history.push("/about")}>About</Button>

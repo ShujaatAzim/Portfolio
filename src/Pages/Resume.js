@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ResumeTabBar from '../Components/ResumeTabBar';
 import ResumeContent from '../Components/ResumeContent';
+import PersonalStatement from '../Components/PersonalStatement';
 import { Grid } from '@material-ui/core';
 
 const Resume = () => {
@@ -18,13 +19,7 @@ const Resume = () => {
             <h2>Shujaat Azim</h2>
             <h4>Full Stack Developer</h4>
             <hr />
-            <p>
-              I am an enthusiastic full stack software developer with a background in, and passion for, technology, medicine, and finance. I am 
-              offering strong skills in programming, leadership, teamwork, communication, organization, self-motivation, and presentation - all 
-              ained from first-hand experience. I am a seasoned professional with a diverse background in many fields, which enables me to quickly 
-              adopt and master new technologies while working in both team and self-directed settings. I am always eager to continue learning and 
-              improving.
-            </p>
+              <PersonalStatement />
             <hr />
             <h5>Address</h5>
             <p>10301 Holly Hill Place, Potomac MD 20854</p>

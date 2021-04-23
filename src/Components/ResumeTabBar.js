@@ -15,9 +15,9 @@ const ResumeTabBar = props => {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
-    newValue === 0 ? props.setView("education") : 
-    newValue === 1 ? props.setView("employment") : 
-    newValue === 2 ? props.setView("skills") :
+    newValue === 0 ? props.setView("employment") : 
+    newValue === 1 ? props.setView("skills") : 
+    newValue === 2 ? props.setView("education") :
     props.setView("extras")
     setValue(newValue);
   };
@@ -25,9 +25,9 @@ const ResumeTabBar = props => {
   return (
     <Paper className={classes.root} elevation={0} style={{ backgroundColor: "transparent", borderRadius: "0px" }}>
       <Tabs value={value} onChange={handleChange} centered style={{ flexDirection: "row" }}>
-        <Tab label="Education" />
         <Tab label="Employment History" />
         <Tab label="Relevant Skills" />
+        <Tab label="Education" />
         <Tab label="Volunteerism/Hobbies" />
       </Tabs>
     </Paper>

@@ -82,7 +82,7 @@ export const resumeData = {
     },
     {
       "name": "Databases",
-      "description": "SQLite, Postgres, MongoDB, GraphQL"
+      "description": "SQLite, Postgres, MongoDB, GraphQL, Firebase"
     },
     {
       "name": "Testing Libraries",
@@ -91,6 +91,10 @@ export const resumeData = {
     {
       "name": "Programming Languages",
       "description": "JavaScript, Ruby, HTML/CSS"
+    },
+    {
+      "name": "Deployment",
+      "description": "Heroku, AWS"
     },
     {
       "name": "Version Control",

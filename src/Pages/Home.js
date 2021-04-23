@@ -2,6 +2,7 @@ import React from 'react';
 import PersonalStatement from '../Components/PersonalStatement';
 import { Grid } from '@material-ui/core';
 import { FaDev, FaFreeCodeCamp, FaGithubSquare, FaLinkedin } from 'react-icons/fa';
+import Avatar from '../Images/IMG_0123.jpg'
 
 const Home = () => {
   return (
@@ -9,8 +10,8 @@ const Home = () => {
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <img className="avatar" 
-            src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-512.png" 
-            alt="profile" />
+            src={Avatar} 
+            alt="avatar" />
         </Grid>
         <Grid item xs={12}>
           <div className="hero">

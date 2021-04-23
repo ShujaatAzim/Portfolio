@@ -10,11 +10,11 @@
 }
 
 .header {
-  height: 8vh;
+  height: 6vh;
 }
 
 .body {
-  min-height: 85vh;
+  min-height: 87vh;
 }
 
 .footer {
@@ -40,7 +40,11 @@
 
 .avatar {
   height: 250px;
-  padding-top: 5em;
+  margin-top: 4rem;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 
 .hero {

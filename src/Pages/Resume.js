@@ -3,19 +3,18 @@ import ResumeTabBar from '../Components/ResumeTabBar';
 import ResumeContent from '../Components/ResumeContent';
 import PersonalStatement from '../Components/PersonalStatement';
 import { Grid } from '@material-ui/core';
+import Avatar from '../Images/IMG_0123.jpg'
 
 const Resume = () => {
 
-  const [view, setView] = useState("education")
+  const [view, setView] = useState("employment")
 
   return (
     <div className="resume-page">
       <Grid container>
         <Grid item xs={5}>
           <div className="resume-left">
-            <img style={{ height: "200px" }} 
-              src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-512.png" 
-              alt="avatar" />
+            <img className="avatar" style={{ marginTop: "2rem" }}src={Avatar} alt="avatar" />
             <h2>Shujaat Azim</h2>
             <h4>Full Stack Developer</h4>
             <hr />

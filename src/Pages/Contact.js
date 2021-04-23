@@ -2,6 +2,7 @@ import React from 'react';
 import ContactList from '../Components/ContactList';
 import PersonalStatement from '../Components/PersonalStatement';
 import { Grid } from '@material-ui/core';
+import Avatar from '../Images/IMG_0123.jpg'
 
 const Contact = () => {
   return (
@@ -10,7 +11,7 @@ const Contact = () => {
         <Grid item xs={6}>
           <div>
             <h1>Shujaat Azim</h1>
-            <img className="avatar" src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-512.png" 
+            <img className="avatar" src={Avatar} 
               style={{ paddingTop: "1rem" }} alt="profile" />
             <PersonalStatement />
           </div>

@@ -1,7 +1,10 @@
 /* bigger parts of app */
 
 .app {
+  overflow-x: auto;
+  white-space: nowrap;
   display: flex;
+  width: 100%;
   flex-direction: column;
   font-family: Arial, sans-serif;
   background: #8e9eab;
@@ -110,4 +113,13 @@
 .resume-content {
   margin-top: 2rem;
   margin-left: 2rem;
+}
+
+/* Not Found Page */
+
+.notfound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30em;
 }

@@ -93,7 +93,7 @@
 /* Resume Page */
 
 .resume-page {
-  padding-top: 3rem;
+  margin-top: 3rem;
 }
 
 .resume-page hr {
@@ -113,6 +113,13 @@
 .resume-content {
   margin-top: 2rem;
   margin-left: 2rem;
+}
+
+/* About Page */
+
+.about-page {
+  text-align: center;
+  margin-top: 3rem;
 }
 
 /* Not Found Page */

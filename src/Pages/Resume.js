@@ -21,13 +21,13 @@ const Resume = () => {
               <PersonalStatement />
             <hr />
             <h5>Address</h5>
-            <p>10301 Holly Hill Place, Potomac MD 20854</p>
+            <p>Potomac, MD 20854</p>
             <h5>Phone</h5>
             <p>(240) 328-0494</p>
             <h5>Email</h5>
             <p>shujaat.azim@gmail.com</p>
             <h5>Website</h5>
-            <p>https://www.shujaatazim.com</p>
+            <p>www.shujaatazim.com</p>
           </div>
         </Grid>
         <Grid item xs={7}>

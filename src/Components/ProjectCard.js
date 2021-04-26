@@ -36,13 +36,13 @@ const ProjectCard = props => {
         </CardContent>
       </CardActionArea>
       <CardActions style={{ justifyContent: "space-around" }}>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" onClick={() => window.open(`${project.github}`, "_blank")} >
           GitHub
         </Button>
         <Button size="small" color="primary">
           CodePen
         </Button>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" onClick={() => window.open(`${project.demo}`, "_blank")}>
           Demo
         </Button>
       </CardActions>

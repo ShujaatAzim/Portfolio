@@ -2,7 +2,7 @@ import React from 'react';
 import PersonalStatement from '../Components/PersonalStatement';
 import { Grid } from '@material-ui/core';
 import { FaDev, FaFreeCodeCamp, FaGithubSquare, FaLinkedin } from 'react-icons/fa';
-import Avatar from '../Images/IMG_0123.jpg'
+import Avatar from '../Images/Avatar.jpg'
 
 const Home = () => {
   return (

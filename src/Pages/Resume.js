@@ -3,7 +3,7 @@ import ResumeTabBar from '../Components/ResumeTabBar';
 import ResumeContent from '../Components/ResumeContent';
 import PersonalStatement from '../Components/PersonalStatement';
 import { Grid } from '@material-ui/core';
-import Avatar from '../Images/IMG_0123.jpg'
+import Avatar from '../Images/Avatar.jpg'
 
 const Resume = () => {
 

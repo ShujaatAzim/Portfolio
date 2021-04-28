@@ -1,5 +1,5 @@
-import TidBitsPic from '../Images/TidBits.png';
-import TidBitsDemo from '../Images/TidBitsDemo.mp4';
+import TidbitsPic from '../Images/TidbitsPic.png';
+import TidbitsDemo from '../Demos/TidbitsDemo.mp4';
 
 export const projectsData = {
   "fullstack": [
@@ -44,11 +44,11 @@ export const projectsData = {
   ],
   "rails": [
     {
-      "title": "Ruby TidBits",
-      "image": `${TidBitsPic}`,
+      "title": "Ruby Tidbits!",
+      "image": `${TidbitsPic}`,
       "desc": "A collection of small, simple Ruby methods stored in one place for easy access!",
       "github": "https://github.com/ShujaatAzim/RubyTidbits",
-      "demo": `${TidBitsDemo}`
+      "demo": `${TidbitsDemo}`
     },
     {
       "title": "Rails Project 2",

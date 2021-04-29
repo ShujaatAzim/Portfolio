@@ -36,11 +36,11 @@ const ProjectCard = props => {
         </CardContent>
       </CardActionArea>
       <CardActions style={{ justifyContent: "space-around" }}>
-        <Button size="small" color="primary" onClick={() => window.open(`${project.github}`, "_blank")} >
-          GitHub
+        <Button size="small" color="primary" disabled={!project.deployed} onClick={() => window.open(`${project.link}`, "_blank")}>
+          { project.deployed === false ? "× Deployed" : "✓ Deployed" }
         </Button>
-        <Button size="small" color="primary">
-          CodePen
+        <Button size="small" color="primary" onClick={() => window.open(`${project.github}`, "_blank")}>
+          GitHub
         </Button>
         <Button size="small" color="primary" onClick={() => window.open(`${project.demo}`, "_blank")}>
           Demo

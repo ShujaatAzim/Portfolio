@@ -28,6 +28,8 @@ const Resume = () => {
             <p>shujaat.azim@gmail.com</p>
             <h5>Website</h5>
             <p>www.shujaatazim.com</p>
+            <h5>Blog</h5>
+            <p>www.dev.to/shujaatazim</p>
           </div>
         </Grid>
         <Grid item xs={7}>

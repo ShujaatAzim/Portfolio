@@ -1,5 +1,6 @@
 import TidbitsPic from '../Images/TidbitsPic.png';
 import TidbitsDemo from '../Demos/TidbitsDemo.mp4';
+import PortfolioPic from '../Images/PortfolioPic.png';
 
 export const projectsData = {
   "fullstack": [
@@ -7,39 +8,51 @@ export const projectsData = {
       "title": "Full Stack Project 1",
       "image": "https://static.thenounproject.com/png/390337-200.png",
       "desc": "This is a description for sample full stack project 1, which will eventually be unique!",
-      "github": ""
+      "github": "",
+      "demo": "",
+      "deployed": false
     },
     {
       "title": "Full Stack Project 2",
       "image": "https://static.thenounproject.com/png/390337-200.png",
       "desc": "This is a description for sample full stack project 2, which will eventually be unique!",
-      "github": ""
+      "github": "",
+      "demo": "",
+      "deployed": false
     },
     {
       "title": "Full Stack Project 3",
       "image": "https://static.thenounproject.com/png/390337-200.png",
       "desc": "This is a description for sample full stack project 3, which will eventually be unique!",
-      "github": ""
+      "github": "",
+      "demo": "",
+      "deployed": false
     }
   ],
   "react": [
     {
-      "title": "React Project 1",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
-      "desc": "This is a description for sample react project 1, which will eventually be unique!",
-      "github": ""
+      "title": "Portfolio Website",
+      "image": `${PortfolioPic}`,
+      "desc": "The site you're currently viewing was built using React!",
+      "github": "https://github.com/ShujaatAzim/Portfolio",
+      "demo": "",
+      "deployed": true
     },
     {
       "title": "React Project 2",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
       "desc": "This is a description for sample react project 2, which will eventually be unique!",
-      "github": ""
+      "github": "",
+      "demo": "",
+      "deployed": false
     },
     {
       "title": "React Project 3",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
       "desc": "This is a description for sample react project 3, which will eventually be unique!",
-      "github": ""
+      "github": "",
+      "demo": "",
+      "deployed": false
     },
   ],
   "rails": [
@@ -48,19 +61,24 @@ export const projectsData = {
       "image": `${TidbitsPic}`,
       "desc": "A collection of small, simple Ruby methods stored in one place for easy access!",
       "github": "https://github.com/ShujaatAzim/RubyTidbits",
-      "demo": `${TidbitsDemo}`
+      "demo": `${TidbitsDemo}`,
+      "deployed": true
     },
     {
       "title": "Rails Project 2",
       "image": "https://www.yaya.today/img/referral/Technologies/tech_rubyonrails.png",
       "desc": "This is a description for sample rails project 2, which will eventually be unique!",
-      "github": ""
+      "github": "",
+      "demo": "",
+      "deployed": false
     },
     {
       "title": "Rails Project 3",
       "image": "https://www.yaya.today/img/referral/Technologies/tech_rubyonrails.png",
       "desc": "This is a description for sample rails project 3, which will eventually be unique!",
-      "github": ""
+      "github": "",
+      "demo": "",
+      "deployed": false
     },
   ],
   "misc": [
@@ -68,19 +86,25 @@ export const projectsData = {
       "title": "Miscellaneous Project 1",
       "image": "https://clubrunner.blob.core.windows.net/00000000127/Images/misc.png",
       "desc": "This is a description for sample misc project 1, which will eventually be unique!",
-      "github": ""
+      "github": "",
+      "demo": "",
+      "deployed": false
     },
     {
       "title": "Miscellaneous Project 2",
       "image": "https://clubrunner.blob.core.windows.net/00000000127/Images/misc.png",
       "desc": "This is a description for sample misc project 2, which will eventually be unique!",
-      "github": ""
+      "github": "",
+      "demo": "",
+      "deployed": false
     },
     {
       "title": "Miscellaneous Project 3",
       "image": "https://clubrunner.blob.core.windows.net/00000000127/Images/misc.png",
       "desc": "This is a description for sample misc project 3, which will eventually be unique!",
-      "github": ""
+      "github": "",
+      "demo": "",
+      "deployed": false
     }
   ]
 }

@@ -25,7 +25,7 @@ const ProjectCard = props => {
   return (
     <Card className={classes.root} elevation={10}>
       <CardActionArea>
-        <CardMedia className={classes.media} image={project.image} title="project logo" />
+        <CardMedia className={classes.media} image={project.image} title="project logo" style={{ margin: "0.5rem" }} />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             { project.title }

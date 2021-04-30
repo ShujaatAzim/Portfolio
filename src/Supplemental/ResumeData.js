@@ -73,12 +73,16 @@ export const resumeData = {
       "description": "ReactJS, Ruby on Rails"
     }, 
     {
-      "name": "State Management Libraries",
-      "description": "Redux, RecoilJS"
+      "name": "Programming Languages",
+      "description": "JavaScript, Ruby, HTML/CSS"
     },
     {
       "name": "Design/CSS Libraries",
       "description": "Bootstrap, Material UI, Semantic UI, Bulma"
+    },
+    {
+      "name": "State Management Libraries",
+      "description": "Redux, RecoilJS"
     },
     {
       "name": "Databases",
@@ -89,16 +93,16 @@ export const resumeData = {
       "description": "Jest, RSpec"
     },
     {
-      "name": "Programming Languages",
-      "description": "JavaScript, Ruby, HTML/CSS"
-    },
-    {
       "name": "Deployment",
       "description": "Heroku, AWS"
     },
     {
       "name": "Version Control",
       "description": "Git & GitHub"
+    },
+    {
+      "name": "Principles",
+      "description": "REST API Architecture, Model-View-Controller (MVC) layout"
     }
   ],
   "extras": [

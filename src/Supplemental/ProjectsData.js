@@ -1,15 +1,17 @@
 import TidbitsPic from '../Images/TidbitsPic.png';
 import TidbitsDemo from '../Demos/TidbitsDemo.mp4';
+import TweedleDooPic from '../Images/TweedleDooPic.png';
+import TweedleDooDemo from '../Demos/TweedleDooDemo.mp4';
 import PortfolioPic from '../Images/PortfolioPic.png';
 
 export const projectsData = {
   "fullstack": [
     {
-      "title": "Full Stack Project 1",
-      "image": "https://static.thenounproject.com/png/390337-200.png",
-      "desc": "This is a description for a future full stack project 1, and this will then be unique!",
-      "github": "",
-      "demo": "",
+      "title": "TweedleDoo",
+      "image": `${TweedleDooPic}`,
+      "desc": "Not just a simple to-do list! Create an account, multiple lists with CRUD functionality, and more!",
+      "github": "https://github.com/ShujaatAzim/TweedleDoo-Frontend",
+      "demo": `${TweedleDooDemo}`,
       "deployed": false,
       "link": ""
     },

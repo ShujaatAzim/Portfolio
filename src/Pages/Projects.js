@@ -17,7 +17,7 @@ const Projects = () => {
         <Grid container direction="row" justify="space-around" >
           {projectsData[view].map(project => {
             return (
-              <div>
+              <div key={project.title}>
                 <Grid item xs={12}>
                   <ProjectCard project={project} />
                 </Grid>

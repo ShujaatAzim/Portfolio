@@ -42,7 +42,7 @@ export const projectsData = {
       "github": "https://github.com/ShujaatAzim/Portfolio",
       "demo": "",
       "deployed": true,
-      "link": "www.shujaatazim.com"
+      "link": "https://www.shujaatazim.com"
     },
     {
       "title": "React Project 2",

@@ -8,7 +8,7 @@ const About = () => {
         <Grid item xs={12} style={{ marginLeft: "10rem", marginRight: "10rem"}}>
           <h1>About Page (in progress!)</h1>
           <p>
-            Hello! My name is Shujaat Azim, and I am a full stack developer. THank you for visiting my personal portfolio site!
+            Hello! My name is Shujaat Azim, and I am a full stack developer. Thank you for visiting my personal portfolio site!
           </p>
           <p>
             My developer career journey has been anything but conventional. In school, I had a difficult time focusing my interests, as any subject even 

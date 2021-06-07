@@ -78,7 +78,7 @@ export const resumeData = {
     },
     {
       "name": "Design/CSS Libraries",
-      "description": "Bootstrap, Material UI, Semantic UI, Bulma"
+      "description": "Bootstrap, Material UI, Semantic UI, D3, Bulma"
     },
     {
       "name": "State Management Libraries",
@@ -94,7 +94,7 @@ export const resumeData = {
     },
     {
       "name": "Deployment",
-      "description": "Heroku, AWS"
+      "description": "Heroku, AWS, DigitalOcean"
     },
     {
       "name": "Version Control",

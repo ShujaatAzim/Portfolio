@@ -24,7 +24,7 @@ const ProjectCard = props => {
 
   return (
     <Card className={classes.root} elevation={10}>
-      <CardActionArea>
+      <CardActionArea disabled={project.link === ""} onClick={() => window.open(`${project.link}`, "_blank")}>
         <CardMedia className={classes.media} image={project.image} title="project logo" style={{ margin: "0.5rem" }} />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
@@ -39,10 +39,10 @@ const ProjectCard = props => {
         <Button size="small" color="primary" disabled={!project.deployed} onClick={() => window.open(`${project.link}`, "_blank")}>
           { project.deployed === false ? "× Deployed" : "✓ Deployed" }
         </Button>
-        <Button size="small" color="primary" onClick={() => window.open(`${project.github}`, "_blank")}>
+        <Button size="small" color="primary" disabled={project.github === ""} onClick={() => window.open(`${project.github}`, "_blank")}>
           GitHub
         </Button>
-        <Button size="small" color="primary" onClick={() => window.open(`${project.demo}`, "_blank")}>
+        <Button size="small" color="primary" disabled={project.demo === ""} onClick={() => window.open(`${project.demo}`, "_blank")}>
           Demo
         </Button>
       </CardActions>

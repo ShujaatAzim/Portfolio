@@ -4,8 +4,10 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import Menu from '@material-ui/core/Menu'
-import MenuItem from '@material-ui/core/MenuItem'
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
 import { useHistory } from 'react-router-dom';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
@@ -43,9 +45,9 @@ const NavBar = () => {
           </Typography>
           { !matches ? 
           <React.Fragment>
-            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-              Get Started!
-            </Button>
+            <IconButton aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
+              <MenuIcon />
+            </IconButton>
             <Menu id="simple-menu" anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose}>
               <MenuItem onClick={() => {history.push("/");handleClose()}}>Home</MenuItem>
               <MenuItem onClick={() => {history.push("/about");handleClose()}}>About</MenuItem>

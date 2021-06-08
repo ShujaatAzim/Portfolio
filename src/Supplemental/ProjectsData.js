@@ -13,7 +13,7 @@ export const projectsData = {
       "github": "https://github.com/ShujaatAzim/TweedleDoo-Frontend",
       "demo": `${TweedleDooDemo}`,
       "deployed": true,
-      "link": "tweedledoo.shujaatazim.com"
+      "link": "https://tweedledoo.shujaatazim.com"
     },
     {
       "title": "Full Stack Project 2",

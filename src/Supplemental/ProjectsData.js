@@ -12,8 +12,8 @@ export const projectsData = {
       "desc": "Not just a simple to-do list! Create an account, multiple lists with CRUD functionality, and more!",
       "github": "https://github.com/ShujaatAzim/TweedleDoo-Frontend",
       "demo": `${TweedleDooDemo}`,
-      "deployed": false,
-      "link": ""
+      "deployed": true,
+      "link": "tweedledoo.shujaatazim.com"
     },
     {
       "title": "Full Stack Project 2",

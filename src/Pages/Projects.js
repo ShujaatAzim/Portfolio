@@ -18,7 +18,7 @@ const Projects = () => {
           {projectsData[view].map(project => {
             return (
               <div key={project.title}>
-                <Grid item xs={12}>
+                <Grid item xs={12}> 
                   <ProjectCard project={project} />
                 </Grid>
               </div>

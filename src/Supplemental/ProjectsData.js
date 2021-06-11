@@ -1,9 +1,11 @@
+import PortfolioPic from '../Images/PortfolioPic.png';
 import TidbitsPic from '../Images/TidbitsPic.png';
 import TidbitsDemo from '../Demos/TidbitsDemo.mp4';
 import TweedleDooPic from '../Images/TweedleDooPic.png';
 import TweedleDooDemo from '../Demos/TweedleDooDemo.mp4';
-import PortfolioPic from '../Images/PortfolioPic.png';
+import TDBackendPic from '../Images/TDBackendPic.png';
 import PokeBookPic from '../Images/PokeBookPic.png';
+import PokeBookDemo from '../Demos/PokeBookDemo.mp4';
 
 export const projectsData = {
   "fullstack": [
@@ -20,8 +22,8 @@ export const projectsData = {
       "title": "PokéBook",
       "image": `${PokeBookPic}`,
       "desc": "Finally a way to track and share your collection of Pokemon cards to help with trading and bragging!",
-      "github": "",
-      "demo": "",
+      "github": "https://github.com/ShujaatAzim/PokeBook-Frontend",
+      "demo": `${PokeBookDemo}`,
       "deployed": false,
       "link": ""
     },
@@ -75,13 +77,13 @@ export const projectsData = {
       "link": ""
     },
     {
-      "title": "Rails Project 2",
-      "image": "https://www.yaya.today/img/referral/Technologies/tech_rubyonrails.png",
-      "desc": "This is a description for a future rails project 2, and this will then be unique!",
+      "title": "TweedleDoo API",
+      "image": `${TDBackendPic}`,
+      "desc": "This is the backend for TweedleDoo, built in Rails as an API-only! It stores all info as JSON.",
       "github": "",
       "demo": "",
-      "deployed": false,
-      "link": ""
+      "deployed": true,
+      "link": "https://td-backend.shujaatazim.com/users"
     },
     {
       "title": "Rails Project 3",

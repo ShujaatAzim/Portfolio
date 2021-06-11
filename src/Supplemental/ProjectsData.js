@@ -3,7 +3,7 @@ import TidbitsDemo from '../Demos/TidbitsDemo.mp4';
 import TweedleDooPic from '../Images/TweedleDooPic.png';
 import TweedleDooDemo from '../Demos/TweedleDooDemo.mp4';
 import PortfolioPic from '../Images/PortfolioPic.png';
-import PokeBookPic from '../Images/PokeBookPic';
+import PokeBookPic from '../Images/PokeBookPic.png';
 
 export const projectsData = {
   "fullstack": [

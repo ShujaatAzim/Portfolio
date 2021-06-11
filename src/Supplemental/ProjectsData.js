@@ -3,6 +3,7 @@ import TidbitsDemo from '../Demos/TidbitsDemo.mp4';
 import TweedleDooPic from '../Images/TweedleDooPic.png';
 import TweedleDooDemo from '../Demos/TweedleDooDemo.mp4';
 import PortfolioPic from '../Images/PortfolioPic.png';
+import PokeBookPic from '../Images/PokeBookPic';
 
 export const projectsData = {
   "fullstack": [
@@ -16,9 +17,9 @@ export const projectsData = {
       "link": "https://tweedledoo.shujaatazim.com"
     },
     {
-      "title": "Full Stack Project 2",
-      "image": "https://static.thenounproject.com/png/390337-200.png",
-      "desc": "This is a description for a future full stack project 2, and this will then be unique!",
+      "title": "PokéBook",
+      "image": `${PokeBookPic}`,
+      "desc": "Finally a way to track and share your collection of Pokemon cards to help with trading and bragging!",
       "github": "",
       "demo": "",
       "deployed": false,

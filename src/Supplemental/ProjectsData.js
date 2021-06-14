@@ -6,6 +6,8 @@ import TweedleDooDemo from '../Demos/TweedleDooDemo.mp4';
 import TDBackendPic from '../Images/TDBackendPic.png';
 import PokeBookPic from '../Images/PokeBookPic.png';
 import PokeBookDemo from '../Demos/PokeBookDemo.mp4';
+import PBBackendPic from '../Images/PBBackendPic.png';
+import D3GraphsPic from '../Images/D3GraphsPic.png';
 
 export const projectsData = {
   "fullstack": [
@@ -24,8 +26,8 @@ export const projectsData = {
       "desc": "Finally a way to track and share your collection of Pokemon cards to help with trading and bragging!",
       "github": "https://github.com/ShujaatAzim/PokeBook-Frontend",
       "demo": `${PokeBookDemo}`,
-      "deployed": false,
-      "link": ""
+      "deployed": true,
+      "link": "https://pokebook.shujaatazim.com"
     },
     {
       "title": "Full Stack Project 3",
@@ -73,37 +75,37 @@ export const projectsData = {
       "desc": "A collection of small, simple Ruby methods stored in one place for easy access!",
       "github": "https://github.com/ShujaatAzim/RubyTidbits",
       "demo": `${TidbitsDemo}`,
-      "deployed": false,
-      "link": ""
+      "deployed": true,
+      "link": "https://tidbits.shujaatazim.com"
     },
     {
       "title": "TweedleDoo API",
       "image": `${TDBackendPic}`,
-      "desc": "This is the backend for TweedleDoo, built in Rails as an API-only! It stores all info as JSON.",
+      "desc": "This is the backend for TweedleDoo, built in Rails as an API-only project! It stores all info as JSON.",
       "github": "https://github.com/ShujaatAzim/TweedleDoo-Backend",
       "demo": "",
       "deployed": true,
       "link": "https://td-backend.shujaatazim.com/users"
     },
     {
-      "title": "Rails Project 3",
-      "image": "https://www.yaya.today/img/referral/Technologies/tech_rubyonrails.png",
-      "desc": "This is a description for a future rails project 3, and this will then be unique!",
-      "github": "",
+      "title": "PokeBook API",
+      "image": `${PBBackendPic}`,
+      "desc": "This is the back end for PokeBook, built in Rails as an API-only project! It stores all info as JSON.",
+      "github": "https://github.com/ShujaatAzim/TweedleDoo-Backend",
       "demo": "",
-      "deployed": false,
-      "link": ""
+      "deployed": true,
+      "link": "https://pb-backend.shujaatazim.com/users"
     },
   ],
   "misc": [
     {
-      "title": "Miscellaneous Project 1",
-      "image": "https://clubrunner.blob.core.windows.net/00000000127/Images/misc.png",
-      "desc": "This is a description for a future misc project 1, and this will then be unique!",
-      "github": "",
+      "title": "D3 Graphs",
+      "image": `${D3GraphsPic}`,
+      "desc": "This app contains several graphs I built using React and the D3 data visualization library!",
+      "github": "https://github.com/ShujaatAzim/D3Graphs",
       "demo": "",
-      "deployed": false,
-      "link": ""
+      "deployed": true,
+      "link": "https://d3graphs.shujaatazim.com"
     },
     {
       "title": "Miscellaneous Project 2",

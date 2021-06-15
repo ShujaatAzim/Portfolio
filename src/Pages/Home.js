@@ -18,16 +18,16 @@ const Home = () => {
             <h3>Hi, I'm Shu! Nice to "meet" you!</h3>
               <PersonalStatement />
             <hr />
-            <p> ReactJS || Ruby on Rails || JavaScript || Ruby || HTML/CSS || Redux || Jest || NodeJS || RecoilJS || REST APIs || Postgres || GraphQL </p>
-            <p> Firebase || Bootstrap || Bulma || AWS || Heroku</p>
+            <p>ReactJS || Ruby on Rails || JavaScript || Ruby || HTML/CSS || Redux || Jest || NodeJS || RecoilJS || REST APIs || Postgres || GraphQL</p>
+            <p>Firebase || Bootstrap || Bulma || AWS || Heroku</p>
           </div>
         </Grid>
         <Grid item xs={12}>
           <div className="icons">
-            <a href="https://github.com/ShujaatAzim" target="_blank" rel="noreferrer"><FaGithubSquare size="3rem" color="black" /></a>
-            <a href="https://www.linkedin.com/in/shujaatazim/" target="_blank" rel="noreferrer"><FaLinkedin size="3rem" color="black" /></a>
-            <a href="https://dev.to/@shujaatazim" target="_blank" rel="noreferrer"><FaDev size="3rem" color="black" /></a>
-            <a href="https://www.freecodecamp.org/shujaatazim" target="_blank" rel="noreferrer"><FaFreeCodeCamp size="3rem" color="black" /></a>
+            <a href="https://github.com/ShujaatAzim" target="_blank" rel="noreferrer"><FaGithubSquare size="3rem" /></a>
+            <a href="https://www.linkedin.com/in/shujaatazim/" target="_blank" rel="noreferrer"><FaLinkedin size="3rem" /></a>
+            <a href="https://dev.to/@shujaatazim" target="_blank" rel="noreferrer"><FaDev size="3rem" /></a>
+            <a href="https://www.freecodecamp.org/shujaatazim" target="_blank" rel="noreferrer"><FaFreeCodeCamp size="3rem" /></a>
           </div>
         </Grid>
       </Grid>

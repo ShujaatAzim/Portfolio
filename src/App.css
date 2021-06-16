@@ -132,8 +132,17 @@
 /* About Page */
 
 .about-page {
+  /* text-align: center; */
+  margin: 3rem 2rem 1rem 2rem;
+}
+
+.about-page h1 {
   text-align: center;
-  margin-top: 3rem;
+}
+
+.about-page p {
+  text-indent: 5ch;
+  line-height: 1.5;
 }
 
 /* Not Found Page */

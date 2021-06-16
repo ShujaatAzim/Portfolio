@@ -4,12 +4,11 @@ import { Grid } from '@material-ui/core';
 const About = () => {
   return (
     <div className="about-page">
-      <Grid container>
+      <Grid container spacing={3}>
         <Grid item xs={12} style={{ marginLeft: "10rem", marginRight: "10rem"}}>
-          <h1>About Page (in progress!)</h1>
-          <p>
-            Hello! My name is Shujaat Azim, and I am a full stack developer. Thank you for visiting my personal portfolio site!
-          </p>
+          <h1>My Story</h1>
+        </Grid>
+        <Grid xs={8} item>
           <p>
             My developer career journey has been anything but conventional. In school, I had a difficult time focusing my interests, as any subject even 
             a little intellectually stimulating would grab me. As a lifelong learner, I always have appreciated subjects that make my mind work. As such, 
@@ -17,9 +16,17 @@ const About = () => {
             personally). Therefore I started at UMD as a cell biology major. However, I quickly added more interests to my list -- psycology, architecture,
             medicine, finance, and finally, technology. I have two of my good friends to thank for the latter -- one is an extremely capable, self-taught
             developer who has excelled in the field; the other has had a similar journey to mine, in that he did a career swap. When he was teaching 
-            himself code via freeCodeCamp, I decided to do so as well; mainly for fun and support. However, I quickly realized that this new field is a 
-            lot of fun and also very fluid and stimulating -- exactly what I was looking for!
+            himself code via freeCodeCamp, I decided to do so as well; mainly for fun and support. However, I quickly realized that this new field is 
+            stimulating, fluid, and a lot of fun - exactly what I was looking for!
           </p>
+        </Grid>
+        <Grid xs={4} style={{ textAlign: "center" }}>
+          Picture One
+        </Grid>
+        <Grid item xs={4} style={{ textAlign: "center" }}>
+          Picture Two
+        </Grid>
+        <Grid xs={8}>
           <p>
             Fast forward a couple years, and my two friends encouraged me to seriously consider software engineering as a career. I had started to feel 
             a little unfulfilled in the financial world - was I really going to be focused on money and nothing else for the rest of my life? I decided 

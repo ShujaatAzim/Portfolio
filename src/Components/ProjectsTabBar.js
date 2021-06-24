@@ -30,7 +30,7 @@ const ProjectsTabBar = props => {
         <Tab label="Full Stack" icon={<RiStackLine />} />
         <Tab label="React" icon={<RiReactjsFill />} />
         <Tab label="Rails" icon={<SiRails />} />
-        <Tab label="Miscellaneous" icon={<RiQuestionLine />} />
+        <Tab label="Other Tech" icon={<RiQuestionLine />} />
       </Tabs>
     </Paper>
   );

@@ -1,5 +1,8 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
+import Professional from '../Images/Professional.png';
+import Avatar from '../Images/Avatar.jpg';
+
 
 const About = () => {
   return (
@@ -21,10 +24,10 @@ const About = () => {
           </p>
         </Grid>
         <Grid xs={4} style={{ textAlign: "center" }}>
-          Picture One
+          <img className="about-pic" src={Professional} alt="professional avatar" />
         </Grid>
         <Grid item xs={4} style={{ textAlign: "center" }}>
-          Picture Two
+          <img className="about-pic" src={Avatar} alt="avatar" />
         </Grid>
         <Grid xs={8}>
           <p>

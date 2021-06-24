@@ -3,7 +3,7 @@ import ResumeTabBar from '../Components/ResumeTabBar';
 import ResumeContent from '../Components/ResumeContent';
 import PersonalStatement from '../Components/PersonalStatement';
 import { Grid } from '@material-ui/core';
-import Avatar from '../Images/Avatar.jpg'
+import Professional from '../Images/Professional.png';
 
 const Resume = () => {
 
@@ -14,7 +14,7 @@ const Resume = () => {
       <Grid container>
         <Grid item xs={5}>
           <div className="resume-left">
-            <img className="avatar" style={{ marginTop: "2rem" }}src={Avatar} alt="avatar" />
+            <img className="avatar" style={{ marginTop: "2rem" }} src={Professional} alt="avatar" />
             <h2>Shujaat Azim</h2>
             <h4>Full Stack Developer</h4>
             <hr />

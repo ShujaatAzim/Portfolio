@@ -2,7 +2,7 @@ import React from 'react';
 import ContactList from '../Components/ContactList';
 import PersonalStatement from '../Components/PersonalStatement';
 import { Grid } from '@material-ui/core';
-import Avatar from '../Images/Avatar.jpg'
+import Professional from '../Images/Professional.png'
 
 const Contact = () => {
   return (
@@ -11,7 +11,7 @@ const Contact = () => {
         <Grid item xs={6}>
           <div>
             <h1>Shujaat Azim</h1>
-            <img className="avatar" src={Avatar} alt="profile" style={{ margin: "1rem" }} />
+            <img className="avatar" src={Professional} alt="profile" style={{ margin: "1rem" }} />
             <PersonalStatement />
           </div>
         </Grid>

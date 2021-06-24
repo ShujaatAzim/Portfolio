@@ -2,7 +2,7 @@ import React from 'react';
 import PersonalStatement from '../Components/PersonalStatement';
 import { Grid } from '@material-ui/core';
 import { FaDev, FaFreeCodeCamp, FaGithubSquare, FaLinkedin } from 'react-icons/fa';
-import Avatar from '../Images/Avatar.jpg'
+import Professional from '../Images/Professional.png'
 
 const Home = () => {
   return (
@@ -10,8 +10,8 @@ const Home = () => {
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <img className="avatar" 
-            src={Avatar} 
-            alt="avatar" />
+            src={Professional} 
+            alt="professional avatar" />
         </Grid>
         <Grid item xs={12}>
           <div className="hero">

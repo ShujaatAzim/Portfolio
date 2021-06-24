@@ -145,6 +145,18 @@
   line-height: 1.5;
 }
 
+.about-pic {
+  height: 250px;
+}
+
+.about-pic-rounded {
+  height: 250px;
+  border-top-left-radius: 75%;
+  border-top-right-radius: 75%;
+  border-bottom-left-radius: 75%;
+  border-bottom-right-radius: 75%;
+}
+
 /* Not Found Page */
 
 .notfound {

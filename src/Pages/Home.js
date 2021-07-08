@@ -5,6 +5,7 @@ import { FaDev, FaFreeCodeCamp, FaGithubSquare, FaLinkedin } from 'react-icons/f
 import Professional from '../Images/Professional.png'
 
 const Home = () => {
+  
   return (
     <div className="homepage">
       <Grid container spacing={2}>

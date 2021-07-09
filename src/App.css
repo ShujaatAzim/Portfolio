@@ -141,12 +141,11 @@
 }
 
 .about-page p {
-  text-indent: 5ch;
   line-height: 1.5;
 }
 
 .about-pic {
-  height: 250px;
+  height: 350px;
 }
 
 .about-pic-rounded {

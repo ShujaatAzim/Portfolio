@@ -50,9 +50,9 @@ export const projectsData = {
       "link": "https://www.shujaatazim.com"
     },
     {
-      "title": "React Project 2",
+      "title": "Just the Tip!",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
-      "desc": "This is a description for a future react project 2, with styling but without a backend, and then this card will be unique!",
+      "desc": "An app that you can use to calculate tips and how much each member of your party pays if you're splitting!",
       "github": "",
       "demo": "",
       "deployed": false,

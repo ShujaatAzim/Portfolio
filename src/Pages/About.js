@@ -14,7 +14,7 @@ const About = () => {
         </Grid>
         <Grid item xs={8}>
           <p>
-            Hello world! My name is Shujaat, but you can call me Shu. I am a full stack software engineer. With this section, I wanted to tell you a 
+            Hello world! My name is Shujaat, but you can call me Shu. I am a full stack software engineer. In this section, I wanted to tell you a 
             little about myself.
           </p>
           <p>
@@ -67,15 +67,15 @@ const About = () => {
             latest systems so I don't miss out on any exclusives, as well as a gaming PC! 
           </p>
           <p>
-            I also enjoy indoor rock climbing, which I find to be a great workout as well. Swimming, tennis, the traditional gym, and even golf round
+            I also enjoy indoor rock climbing, which I find to be a great workout. Swimming, tennis, the traditional gym, and even golf round
             out my physical activities. I'm also an avid cook and gardener! Nothing beats carefully growing your own produce and using your own cooking
-            skills to make a delicious meal! 
+            skills to make a delicious meal!
           </p>
           <p>
             I come from a family including my mom and two younger sisters. My father passed away when I was thirteen, and so my mom stepped in as both
-            mother and father. It was a tough time but she made sure I am the way I am today! All my good qualities come from her. I also have a pet
+            mother and father. It was a tough time but she made sure I am the man I am today! All of my good qualities come from her. I also have a pet
             bird, a cockatiel named Birdy. She is 22 (!) years old, and is one of my best friends! She sits with me when I am coding at home, conent to
-            perch on my laptop while I type away!
+            perch on my laptop while I type away; In fact, she is sitting with me as I write this!
           </p>
           <p>
             Thank you for taking the time to get to know a little more about me. I look forward to getting to know you as well! :)

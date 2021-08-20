@@ -3,7 +3,7 @@ import TidbitsPic from '../Images/TidbitsPic.png';
 import TidbitsDemo from '../Demos/TidbitsDemo.mp4';
 import TweedleDooPic from '../Images/TweedleDooPic.png';
 import TweedleDooDemo from '../Demos/TweedleDooDemo.mp4';
-import TDBackendPic from '../Images/TDBackendPic.png';
+import ProjectivePic from '../Images/ProjectivePic.png';
 import PokeBookPic from '../Images/PokeBookPic.png';
 import PokeBookDemo from '../Demos/PokeBookDemo.mp4';
 import PBBackendPic from '../Images/PBBackendPic.png';
@@ -50,7 +50,7 @@ export const projectsData = {
       "link": "https://www.shujaatazim.com"
     },
     {
-      "title": "Just the Tip!",
+      "title": "Tippi",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
       "desc": "An app that you can use to calculate tips and how much each member of your party pays if you're splitting!",
       "github": "",
@@ -70,6 +70,15 @@ export const projectsData = {
   ],
   "rails": [
     {
+      "title": "Projective",
+      "image": `${ProjectivePic}`,
+      "desc": "A simple project management app used to break down big projects! Built to show how Rails can be used as a standalone framework for apps!",
+      "github": "https://github.com/ShujaatAzim/Projective",
+      "demo": "",
+      "deployed": true,
+      "link": "https://projective.shujaatazim.com/"
+    },
+    {
       "title": "Ruby Tidbits!",
       "image": `${TidbitsPic}`,
       "desc": "A collection of small, simple Ruby methods and games stored in one place for easy access. Built to show my prowess with with Rails!",
@@ -77,15 +86,6 @@ export const projectsData = {
       "demo": `${TidbitsDemo}`,
       "deployed": true,
       "link": "https://tidbits.shujaatazim.com"
-    },
-    {
-      "title": "TweedleDoo API",
-      "image": `${TDBackendPic}`,
-      "desc": "This is the backend for TweedleDoo, built in Rails as an API-only project! It stores all info as JSON, for ease of retrieval.",
-      "github": "https://github.com/ShujaatAzim/TweedleDoo-Backend",
-      "demo": "",
-      "deployed": true,
-      "link": "https://td-backend.shujaatazim.com/users"
     },
     {
       "title": "PokeBook API",

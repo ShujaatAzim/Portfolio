@@ -59,9 +59,9 @@ export const projectsData = {
       "link": ""
     },
     {
-      "title": "React Project 3",
+      "title": "Calendyr",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
-      "desc": "This is a description for a future react project 3, with styling but without a backend, and then this card will be unique!",
+      "desc": "A simple calendar app used to keep track of habit streaks, similar to github's calendar keeping track of commits!",
       "github": "",
       "demo": "",
       "deployed": false,

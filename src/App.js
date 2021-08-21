@@ -24,7 +24,7 @@ const App = () => {
           <Route component={NotFound} />
         </Switch>
       </div>
-      {/* damned footer still overlaps site content when screen is resized... */}
+      {/* damned footer still overlaps site content when screen is resized... going to need to fix*/}
       <footer className="footer">
         <hr />
         Built from scratch with React by Shujaat Azim

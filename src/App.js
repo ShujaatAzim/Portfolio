@@ -27,7 +27,7 @@ const App = () => {
       {/* damned footer still overlaps site content when screen is resized... going to need to fix*/}
       <footer className="footer">
         <hr />
-        Built from scratch with React by Shujaat Azim
+        Built from scratch with React by Shujaat Azim :)
       </footer>
     </div>
   );

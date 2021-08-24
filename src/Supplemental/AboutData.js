@@ -1,3 +1,5 @@
+// The order of the paragraphs determines their appearance on the about page.
+
 export const aboutData = {
   "before dev": {
     "paragraph 1": "Started out in medicine, moved into the financial world, realized I'm not in love with money.",

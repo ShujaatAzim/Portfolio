@@ -9,6 +9,9 @@ import PokeBookDemo from '../Demos/PokeBookDemo.mp4';
 import PBBackendPic from '../Images/PBBackendPic.png';
 import D3GraphsPic from '../Images/D3GraphsPic.png';
 
+// Projects are organized such that they can be reordered without much effort. 
+// Just rearrange the order of the objects and they will change their order accordingly on the site.
+
 export const projectsData = {
   "fullstack": [
     {

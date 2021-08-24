@@ -1,3 +1,5 @@
+// The order of the objects determines the order they appear on the resume page.
+
 export const resumeData = {
   "education": [
     {

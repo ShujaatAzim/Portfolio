@@ -3,6 +3,7 @@ import TidbitsPic from '../Images/TidbitsPic.png';
 import TidbitsDemo from '../Demos/TidbitsDemo.mp4';
 import TweedleDooPic from '../Images/TweedleDooPic.png';
 import TweedleDooDemo from '../Demos/TweedleDooDemo.mp4';
+import TippiPic from '../Images/TippiPic.png'
 import ProjectivePic from '../Images/ProjectivePic.png';
 import PokeBookPic from '../Images/PokeBookPic.png';
 import PokeBookDemo from '../Demos/PokeBookDemo.mp4';
@@ -54,9 +55,9 @@ export const projectsData = {
     },
     {
       "title": "Tippi",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
+      "image": `${TippiPic}`,
       "desc": "An app that you can use to calculate tips and how much each member of your party pays if you're splitting!",
-      "github": "",
+      "github": "https://github.com/ShujaatAzim/Tippi",
       "demo": "",
       "deployed": false,
       "link": ""

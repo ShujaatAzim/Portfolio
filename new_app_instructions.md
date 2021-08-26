@@ -1,8 +1,6 @@
 ```
 ssh root@shujaatazim.com
-
 dokku apps:create {APP_NAME}
-
 exit
 ```
 

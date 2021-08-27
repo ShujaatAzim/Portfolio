@@ -114,7 +114,7 @@ export const projectsData = {
     {
       "title": "Miscellaneous Project 2",
       "image": "https://clubrunner.blob.core.windows.net/00000000127/Images/misc.png",
-      "desc": "This is a description for a future misc project 2, using a different technology, and then this card will then be unique!",
+      "desc": "This is a description for a future misc project 2, maybe using Vue.js and perhaps in TS, and then this card will then be unique!",
       "github": "",
       "demo": "",
       "deployed": false,
@@ -123,7 +123,7 @@ export const projectsData = {
     {
       "title": "Miscellaneous Project 3",
       "image": "https://clubrunner.blob.core.windows.net/00000000127/Images/misc.png",
-      "desc": "This is a description for a future misc project 3, using a different technology, and then this card will then be unique!",
+      "desc": "This is a description for a future misc project 3, maybe using React Native, and then this card will then be unique!",
       "github": "",
       "demo": "",
       "deployed": false,

@@ -62,9 +62,9 @@ const About = () => {
         </Grid>
         <Grid item xs={8}>
           <p>
-            Outside of coding, I enjoy playing video games. I tend to be a complettionist when it comes to games, however, so I always choose my games
-            carefully! I'm a fan of the Legend of Zelda series, World of Warcraft, the Mass Effect series, the Halo series. I usually have all the 
-            latest systems so I don't miss out on any exclusives, as well as a gaming PC! 
+            Outside of coding, I enjoy playing video games. I tend to be a completionist when it comes to games, however, so I always choose my games
+            carefully! I'm a fan of the Legend of Zelda series, World of Warcraft, the Mass Effect series, the Halo series, and many others!. I usually 
+            have all the latest systems so I don't miss out on any exclusives! 
           </p>
           <p>
             I also enjoy indoor rock climbing, which I find to be a great workout. Swimming, tennis, the traditional gym, and even golf round

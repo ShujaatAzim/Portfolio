@@ -30,7 +30,7 @@ const About = () => {
             Afer leaving the medical world, I entered the world of finance. It was a chance encounter with someone who offered me a then-irresistable 
             offer. I started working at M&T Bank, learning how to work with clients and teams, but it was not meant to last - once the initial draw 
             of the financial world wore off, I started feeling intellectually unsatisfied with my contributions - was I really going to spend the rest 
-            of my life chasing dollar signs and little else? I wanted to use my brain and change the world! 
+            of my life chasing dollar signs and nothing else? I want to use my brain to change the world! 
           </p>
         </Grid>
         <Grid item xs={4} style={{ textAlign: "center" }}>

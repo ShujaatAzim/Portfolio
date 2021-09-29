@@ -22,7 +22,7 @@ export const resumeData = {
       "place": "Practical Solutions, Inc.",
       "city": "Washington, DC",
       "title": "Software Engineer",
-      "time": "February 2020 - April 2020",
+      "time": "January 2020 - May 2020",
       "description": [
         "Functioned as primary software engineer, 100% responsible for website and other in-house projects entirely.",
         "Adjusted design parameters of the company website to boost performance and incorporate newer technologies such as React.",

@@ -118,11 +118,14 @@ export const resumeData = {
       ],
       "hobbies": [
         "Indoor Rock Climbing",
-        "Fishing",
         "Cooking",
-        "Hiking",
         "Video Gaming",
+        "Fishing",
+        "Swimming",
+        "Hiking",
         "Fishkeeping",
+        "Tennis",
+        "Golf",
         "Gardening",
         "Astronomy/Stargazing"
       ]

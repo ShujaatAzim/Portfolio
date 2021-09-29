@@ -63,19 +63,19 @@ const About = () => {
         <Grid item xs={8}>
           <p>
             Outside of coding, I enjoy playing video games. I tend to be a completionist when it comes to games, however, so I always choose my games
-            carefully! I'm a fan of the Legend of Zelda series, World of Warcraft, the Mass Effect series, the Halo series, and many others!. I usually 
-            have all the latest systems so I don't miss out on any exclusives! 
+            carefully! I'm a fan of the Legend of Zelda series, World of Warcraft, the Mass Effect series, the Halo series, and many others. I usually 
+            have all the latest systems so I don't miss out on any exclusives.
           </p>
           <p>
-            I also enjoy indoor rock climbing, which I find to be a great workout. Swimming, tennis, the traditional gym, and even golf round
-            out my physical activities. I'm also an avid cook and gardener! Nothing beats carefully growing your own produce and using your own cooking
-            skills to make a delicious meal!
+            I also enjoy indoor rock climbing, which I find to be a great workout. Swimming, tennis, the traditional gym, and golf round
+            out my physical activities. I'm also an avid chef and gardener; nothing beats carefully growing your own produce and using your own cooking
+            skills to make a delicious mea.
           </p>
           <p>
             I come from a family including my mom and two younger sisters. My father passed away when I was thirteen, and so my mom stepped in as both
-            mother and father. It was a tough time but she made sure I am the man I am today! All of my good qualities come from her. I also have a pet
-            bird, a cockatiel named Birdy. She is 22 (!) years old, and is one of my best friends! She sits with me when I am coding at home, conent to
-            perch on my laptop while I type away; In fact, she is sitting with me as I write this!
+            mother and father. It was a tough time but she made sure I am the man I am today. All of my good qualities come from her. I also have a pet
+            bird, a cockatiel named Birdy. She is 22 (!) years old, and is one of my best friends. She sits with me when I am coding at home, conent to
+            perch on my laptop while I type away; in fact, she is sitting with me as I write this!
           </p>
           <p>
             Thank you for taking the time to get to know a little more about me. I look forward to getting to know you as well! :)

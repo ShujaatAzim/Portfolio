@@ -21,8 +21,9 @@ const ResumeContent = props => {
           </div> :
           content === "skills" ? 
           <div>
-            <h2>{item.name}:</h2>
+            <h3>{item.name}:</h3>
             <p>{item.description}</p> {/* don't like this in line font sizing, might change...*/}
+            <br />
           </div> : 
           content === "education" ? 
           <div>

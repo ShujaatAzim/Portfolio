@@ -72,7 +72,7 @@ export const resumeData = {
   "skills": [
     {
       "name": "Frameworks",
-      "description": "ReactJS, Ruby on Rails"
+      "description": "React, Ruby on Rails, Vue"
     }, 
     {
       "name": "Programming Languages",

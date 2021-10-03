@@ -19,8 +19,8 @@ const Home = () => {
             <h3>Hi, I'm Shu! Nice to "meet" you!</h3>
               <PersonalStatement />
             <hr />
-            <p>ReactJS || Ruby on Rails || JavaScript || Ruby || HTML/CSS || Redux || Jest || NodeJS || RecoilJS || REST APIs || Postgres || GraphQL</p>
-            <p>Firebase || Bootstrap || Bulma || AWS || Heroku</p>
+            <p>React || Ruby on Rails || JavaScript || Ruby || Vue || HTML/CSS || Redux || Jest || NodeJS || RecoilJS || REST APIs || Postgres</p>
+            <p>GraphQL || Firebase || Bootstrap || Bulma || AWS || Heroku</p>
           </div>
         </Grid>
         <Grid item xs={12}>

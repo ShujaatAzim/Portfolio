@@ -1,4 +1,6 @@
 // The order of the paragraphs determines their appearance on the about page.
+// This is where the about page will eventually map through to display paragraphs.
+// Right now, this is a planning outline, and the paragraphs are written in p tags in the actual component.
 
 export const aboutData = {
   "before dev": {

@@ -5,7 +5,7 @@ import TweedleDooPic from '../Images/TweedleDooPic.png';
 import TweedleDooDemo from '../Demos/TweedleDooDemo.mp4';
 import TippiPic from '../Images/TippiPic.png'
 import ProjectivePic from '../Images/ProjectivePic.png';
-import PokeBookPic from '../Images/PokeBookPic.png';
+import PokeBookPic from '../Images/PokeBookPic2.png';
 import PokeBookDemo from '../Demos/PokeBookDemo.mp4';
 import PBBackendPic from '../Images/PBBackendPic.png';
 import D3GraphsPic from '../Images/D3GraphsPic.png';

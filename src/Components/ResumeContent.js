@@ -12,11 +12,10 @@ const ResumeContent = props => {
           content === "employment" ?
           <div>
             <h2><b>{item.place}</b></h2>
-            <h4><i>{item.title}</i></h4>
-            <h5>{item.city}</h5>
+            <h4><i>{item.title} - {item.city}</i></h4>
             <h5>{item.time}</h5>
             <ul>
-              {item.description.map(desc => <div><li>{desc}</li><br /></div>)}
+              {item.description.map(description => <div><li>{description}</li><br /></div>)}
             </ul>
           </div> :
           content === "skills" ? 

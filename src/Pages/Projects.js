@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ProjectsTabBar from '../Components/ProjectsTabBar';
 import ProjectCard from '../Components/ProjectCard';
 import { Grid } from '@material-ui/core';
+import { Pagination, Stack } from '@mui/material';
 import { projectsData } from '../Supplemental/ProjectsData';
 
 const Projects = () => {
@@ -24,6 +25,11 @@ const Projects = () => {
               </div>
             )})}
         </Grid>
+      </div>
+      <div>
+        <Stack spacing={2}>
+          <Pagination count={1} variant="outlined" color="primary" />
+        </Stack>
       </div>
     </div>
   );

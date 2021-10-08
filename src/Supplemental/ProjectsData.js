@@ -9,6 +9,7 @@ import PokeBookPic from '../Images/PokeBookPic2.png';
 import PokeBookDemo from '../Demos/PokeBookDemo.mp4';
 import PBBackendPic from '../Images/PBBackendPic.png';
 import D3GraphsPic from '../Images/D3GraphsPic.png';
+import VueTasksPic from '../Images/VueTasksPic.png';
 
 // Projects are organized such that they can be reordered without much effort. 
 // Just rearrange the order of the objects and they will change their order accordingly on the site.
@@ -112,10 +113,10 @@ export const projectsData = {
       "link": "https://d3graphs.shujaatazim.com"
     },
     {
-      "title": "Miscellaneous Project 2",
-      "image": "https://clubrunner.blob.core.windows.net/00000000127/Images/misc.png",
-      "desc": "This is a description for a future misc project 2, maybe using Vue.js and perhaps in TS, and then this card will then be unique!",
-      "github": "",
+      "title": "VueTasks",
+      "image": `${VueTasksPic}`,
+      "desc": "A simple task/to-do list built in Vue.js, it serves to highlight my skills building apps with a different front end framework.",
+      "github": "https://github.com/ShujaatAzim/VueTasks",
       "demo": "",
       "deployed": false,
       "link": ""

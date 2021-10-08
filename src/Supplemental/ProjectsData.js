@@ -3,6 +3,7 @@ import TidbitsPic from '../Images/TidbitsPic.png';
 import TidbitsDemo from '../Demos/TidbitsDemo.mp4';
 import TweedleDooPic from '../Images/TweedleDooPic.png';
 import TweedleDooDemo from '../Demos/TweedleDooDemo.mp4';
+import VueTasksDemo from '../Demos/VueTasksDemo.mp4';
 import TippiPic from '../Images/TippiPic.png'
 import ProjectivePic from '../Images/ProjectivePic.png';
 import PokeBookPic from '../Images/PokeBookPic2.png';
@@ -117,7 +118,7 @@ export const projectsData = {
       "image": `${VueTasksPic}`,
       "desc": "A simple task/to-do list built in Vue.js, it serves to highlight my skills building apps with a different front end framework.",
       "github": "https://github.com/ShujaatAzim/VueTasks",
-      "demo": "",
+      "demo": `${VueTasksDemo}`,
       "deployed": false,
       "link": ""
     },

@@ -27,8 +27,7 @@ export const resumeData = {
         "Functioned as primary software engineer, 100% responsible for website and other in-house projects entirely.",
         "Adjusted design parameters of the company website to boost performance and incorporate newer technologies such as React.",
         "Designed and built in-house employee hour tracker app, using React and AWS, completely replacing previous, outdated one.",
-        "Designed creative marketing campaigns with the team, including using Microsoft Partners referrals, in-person demonstrations, and mass email.",
-        "Left due to Covid-19 Pandemic."
+        "Designed creative marketing campaigns with the team, including using Microsoft Partners referrals, in-person demonstrations, and mass email."
       ]
     },
     {
@@ -40,8 +39,7 @@ export const resumeData = {
         "Demonstrated proficiency in financial analysis by actively assisting financial advisors with real-time simulations.",
         "Planned and participated in bi-yearly financial advisor acquisition events, onboarding new advisor teams and their 100+ client rolls.",
         "Served as liason between six financial advisor teams and their 300+ clients.",
-        "Responsible for weekly, cost-effective supply procurement.",
-        "Left to start Flatiron School."
+        "Responsible for weekly, cost-effective supply procurement."
       ]
     },
     {
@@ -52,8 +50,7 @@ export const resumeData = {
       "description": [
         "Promoted products/services to over 20 clients daily in order to consistently achieve sales targets and increase engagement.",
         "Built and maintained a personal client list by fostering trust-based relationships, and became point-of-contact to over 60 clients/families.",
-        "Ensured branch efficiency by taking 100% ownership of the vault and ATM, personally responsible for over $250,000 at any given time.",
-        "Left to join a dedicated advisory firm and continue growth in the financial world."
+        "Ensured branch efficiency by taking 100% ownership of the vault and ATM, personally responsible for over $250,000 at any given time."
       ]
     },
     {
@@ -64,8 +61,7 @@ export const resumeData = {
       "description": [
         "Trained pre-med students in the Radiology Assistant role, and served as point of contact between radiologists and students.",
         "Planned and led monthly meetings with students, and bi-monthly meetings with corporate leadership.",
-        "Prevented the termination of the program by demonstrating strong, responsible, and meticulous leadership.",
-        "Left when the leadership role was changed to require current-student status."
+        "Prevented the termination of the program by demonstrating strong, responsible, and meticulous leadership."
       ]
     },
   ],

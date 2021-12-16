@@ -35,15 +35,15 @@ export const projectsData = {
       "deployed": true,
       "link": "https://pokebook.shujaatazim.com"
     },
-    {
-      "title": "Full Stack Project 3",
-      "image": "https://static.thenounproject.com/png/390337-200.png",
-      "desc": "This is a description for a future full stack project 3, with styling and a backend, and then this card will be unique!",
-      "github": "",
-      "demo": "",
-      "deployed": false,
-      "link": ""
-    }
+    // {
+    //   "title": "Full Stack Project 3",
+    //   "image": "https://static.thenounproject.com/png/390337-200.png",
+    //   "desc": "This is a description for a future full stack project 3, with styling and a backend, and then this card will be unique!",
+    //   "github": "",
+    //   "demo": "",
+    //   "deployed": false,
+    //   "link": ""
+    // }
   ],
   "react": [
     {
@@ -64,15 +64,15 @@ export const projectsData = {
       "deployed": false,
       "link": ""
     },
-    {
-      "title": "Calendyr",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
-      "desc": "A simple calendar app used to keep track of habit streaks, similar to github's calendar keeping track of commits!",
-      "github": "",
-      "demo": "",
-      "deployed": false,
-      "link": ""
-    },
+    // {
+    //   "title": "Calendyr",
+    //   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
+    //   "desc": "A simple calendar app used to keep track of habit streaks, similar to github's calendar keeping track of commits!",
+    //   "github": "",
+    //   "demo": "",
+    //   "deployed": false,
+    //   "link": ""
+    // },
   ],
   "rails": [
     {
@@ -122,14 +122,14 @@ export const projectsData = {
       "deployed": false,
       "link": ""
     },
-    {
-      "title": "Miscellaneous Project 3",
-      "image": "https://clubrunner.blob.core.windows.net/00000000127/Images/misc.png",
-      "desc": "This is a description for a future misc project 3, maybe using React Native, and then this card will then be unique!",
-      "github": "",
-      "demo": "",
-      "deployed": false,
-      "link": ""
-    }
+    // {
+    //   "title": "Miscellaneous Project 3",
+    //   "image": "https://clubrunner.blob.core.windows.net/00000000127/Images/misc.png",
+    //   "desc": "This is a description for a future misc project 3, maybe using React Native, and then this card will then be unique!",
+    //   "github": "",
+    //   "demo": "",
+    //   "deployed": false,
+    //   "link": ""
+    // }
   ]
 }

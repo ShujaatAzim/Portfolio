@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import ResumeTabBar from '../Components/ResumeTabBar';
 import ResumeContent from '../Components/ResumeContent';
-import PersonalStatement from '../Components/PersonalStatement';
 import { Grid } from '@material-ui/core';
 import Professional from '../Images/Professional.png';
 
@@ -16,19 +15,17 @@ const Resume = () => {
           <div className="resume-left">
             <img className="avatar" style={{ marginTop: "2rem" }} src={Professional} alt="avatar" />
             <h2>Shujaat Azim</h2>
-            <h4>Full Stack Developer</h4>
+            <h4>Full Stack Software Engineer</h4>
             <hr />
-              <PersonalStatement />
-            <hr />
-            <h5>Address</h5>
+            <h5>Address:</h5>
             <p>Potomac, MD 20854</p>
-            <h5>Phone</h5>
+            <h5>Phone:</h5>
             <p>(240) 328-0494</p>
-            <h5>Email</h5>
+            <h5>Email:</h5>
             <p>shujaat.azim@gmail.com</p>
-            <h5>Website</h5>
+            <h5>Website:</h5>
             <p>www.shujaatazim.com</p>
-            <h5>Blog</h5>
+            <h5>Blog:</h5>
             <p>www.dev.to/shujaatazim</p>
           </div>
         </Grid>

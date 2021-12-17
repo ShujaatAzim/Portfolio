@@ -6,7 +6,7 @@
   display: flex;
   width: 100%;
   flex-direction: column;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
   background: #8e9eab;
   background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
   background: linear-gradient(to right, #eef2f3, #8e9eab);
@@ -51,7 +51,6 @@
 }
 
 .hero {
-  font-family: Arial;
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -80,7 +79,6 @@
 /* Contact Page */
 
 .contact-page { 
-  font-family: Arial, Helvetica, sans-serif;
   margin: auto;
   padding-top: 3rem;
   width: 85%;
@@ -95,6 +93,19 @@
   font-size: 66px;
   margin-left: 5rem;
   padding-top: 2.5rem;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-link:hover {
+  color: lightslategray;
+}
+
+.contact-link:visited {
+  text-decoration: none;
 }
 
 /* Projects Page */

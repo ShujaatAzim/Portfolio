@@ -10,27 +10,31 @@ const ContactList = () => {
     <List>
       <ListItem>
         <ListItemIcon>
-          <FaPhoneSquare />
+          <FaPhoneSquare style={{ color: "black" }} />
         </ListItemIcon>
         <ListItemText primary="(240) 328-0494" />
       </ListItem>
       <ListItem>
         <ListItemIcon>
-          <FaEnvelopeSquare />
+          <FaEnvelopeSquare style={{ color: "black" }} />
         </ListItemIcon>
         <ListItemText primary="shujaat.azim@gmail.com" />
       </ListItem>
       <ListItem>
         <ListItemIcon>
-          <FaLinkedin />
+          <FaLinkedin style={{ color: "black" }} />
         </ListItemIcon>
-        <ListItemText primary="https://www.linkedin.com/in/shujaatazim/" />
+        <a className="contact-link" href="https://www.linkedin.com/in/shujaatazim/" target="_blank" rel="noreferrer">
+          <ListItemText primary="https://www.linkedin.com/in/shujaatazim/" />
+        </a>
       </ListItem>
       <ListItem>
         <ListItemIcon>
-          <FaDev />
+          <FaDev style={{ color: "black" }} />
         </ListItemIcon>
-        <ListItemText primary="https://dev.to/shujaatazim" />
+        <a className="contact-link" href="https://dev.to/shujaatazim" target="_blank" rel="noreferrer"> 
+          <ListItemText primary="https://dev.to/shujaatazim/" />
+        </a>
       </ListItem>
     </List>
   );

@@ -4,7 +4,7 @@ import TidbitsDemo from '../Demos/TidbitsDemo.mp4';
 import TweedleDooPic from '../Images/TweedleDooPic.png';
 import TweedleDooDemo from '../Demos/TweedleDooDemo.mp4';
 import VueTasksDemo from '../Demos/VueTasksDemo.mp4';
-import TippiPic from '../Images/TippiPic.png'
+import TippiPic from '../Images/TippiPic.png';
 import ProjectivePic from '../Images/ProjectivePic.png';
 import PokeBookPic from '../Images/PokeBookPic2.png';
 import PokeBookDemo from '../Demos/PokeBookDemo.mp4';

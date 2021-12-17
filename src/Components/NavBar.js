@@ -50,7 +50,7 @@ const NavBar = () => {
             </IconButton>
             <Menu id="simple-menu" anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose}>
               <MenuItem onClick={() => {history.push("/");handleClose()}}>Home</MenuItem>
-              <MenuItem onClick={() => {history.push("/about");handleClose()}}>About</MenuItem>
+              {/* <MenuItem onClick={() => {history.push("/about");handleClose()}}>About</MenuItem> */}
               <MenuItem onClick={() => {history.push("/contact");handleClose()}}>Contact</MenuItem>
               <MenuItem onClick={() => {history.push("/projects");handleClose()}}>Projects</MenuItem>
               <MenuItem onClick={() => {history.push("/resume");handleClose()}}>Resume</MenuItem>
@@ -58,7 +58,7 @@ const NavBar = () => {
           </React.Fragment> :
           <React.Fragment>
             <Button color="inherit" onClick={() => history.push("/")}>Home</Button>
-            <Button color="inherit" onClick={() => history.push("/about")}>About</Button>
+            {/* <Button color="inherit" onClick={() => history.push("/about")}>About</Button> */}
             <Button color="inherit" onClick={() => history.push("/contact")}>Contact</Button>
             <Button color="inherit" onClick={() => history.push("/projects")}>Projects</Button>
             <Button color="inherit" onClick={() => history.push("/resume")}>Resume</Button>
